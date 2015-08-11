@@ -19,7 +19,7 @@ I have several experiments designed to measure vote-buying and vote-selling. Wit
 ## Training
 
 #### - <span style="color:#4E9258">Jerome M. Clubb Scholarship (2013)</span>
-Thanks to this grant granted by ICPSR itself, I was able to pay the $ 3,500 fees corresponding to the two-full sessions (two months) of the great ICPSR summer camp in Ann Arbor, Michigan. 
+Thanks to this fellowship granted by ICPSR itself, I was able to pay the $ 3,500 fees corresponding to the two-full sessions (two months) of the great ICPSR summer camp in Ann Arbor, Michigan. 
 
 
 ## Teaching
