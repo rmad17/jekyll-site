@@ -3,7 +3,11 @@ layout: page
 title: Resources
 ---
 
+<p class="lead">
 In this section you will find various information regarding my teaching policy or ways to schedule a meeting with me.
+</p>
+
+
 
 
 ## Rutgers Email Etiquette

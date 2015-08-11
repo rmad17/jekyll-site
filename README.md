@@ -1,6 +1,10 @@
 # Welcome
 
+<p class="lead">
 I'm Héctor Bahamonde, a PhD candidate in the Department of Political Science in Rutgers University (New Brunswick, NJ). This is my website.
+</p>
+
+
 
 
 ## Open Source and Replicability
