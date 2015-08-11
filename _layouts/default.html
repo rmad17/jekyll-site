@@ -31,6 +31,7 @@
 
     <script>
       (function(document) {
+        <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" {% if page.title =="Home" %}checked{% endif %}>
         var toggle = document.querySelector('.sidebar-toggle');
         var sidebar = document.querySelector('#sidebar');
         var checkbox = document.querySelector('#sidebar-checkbox');
