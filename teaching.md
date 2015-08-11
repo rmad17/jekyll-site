@@ -7,7 +7,9 @@ In this section you will find information on the different courses I have been i
 
 
 # Quantitative Analysis for Political Scientists
+
 ## Instructor
+
 ### Soon
 
 What is the influence of income on the probability of voting? Is there any systematic relationship between democracy and growth? Is it true that correlation does not imply causation? 
