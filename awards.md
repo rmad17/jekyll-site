@@ -5,7 +5,7 @@ title: Awards
 
 # Research
 
-## Excellence Fellowship (2012-2017)
+## - Excellence Fellowship (2012-2017)
 Full tuition for doctoral studies, plus health benefits for five years. Department of Political Science, Rutgers University.
 
 ## Small Grant Fund for Research on Latin America (2013)
