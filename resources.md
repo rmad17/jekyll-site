@@ -13,6 +13,6 @@ As an undergraduate student, it is important you familiarize yourself with [how 
 As an undergraduate student, it is your right to ask for a grade appealing. At the same time, I take grading very seriously. Please, read carefully my policy on grade appeals.
 
 ## Appointments
-If you need to see me, **do not email me** but instead make an appointment online [here](https://calendly.com/bahamonde/officehours). There is *no* need for confirmation. I will receive an alert when you schedule a meeting with me.
+If you need to see me, **do not email me** but instead make an appointment online <a href="https://calendly.com/bahamonde/officehours" target="_blank">here</a>. There is *no* need for confirmation. I will receive an alert when you schedule a meeting with me.
 
 
