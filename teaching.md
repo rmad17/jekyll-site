@@ -3,7 +3,7 @@ layout: page
 title: Teaching
 ---
 
-In this section you will find information on the different courses I have been involved in, both as a TA or instructor.
+In this section you will find information on the different courses I have been involved with, both as a TA or instructor.
 
 
 ## Quantitative Analysis for Political Scientists

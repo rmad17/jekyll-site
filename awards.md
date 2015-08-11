@@ -7,7 +7,7 @@ title: Awards
 
 
 
-#### - Excellence Fellowship (2012-2017)
+#### - <span style="color:red">Excellence Fellowship (2012-2017)</span>
 Full tuition for doctoral studies, plus health benefits for five years. Department of Political Science, Rutgers University.
 
 #### - Small Grant Fund for Research on Latin America (2013)
@@ -19,7 +19,7 @@ I have several experiments designed to measure vote-buying and vote-selling. Wit
 ## Training
 
 #### - Jerome M. Clubb Scholarship (2013)
-Thanks to this grant granted by ICPSR itself, I was able to pay the $ 3,500 corresponding to the two-full sessions (two months) of the great ICPSR summer camp in Ann Arbor, Michigan. 
+Thanks to this grant granted by ICPSR itself, I was able to pay the $ 3,500 fees corresponding to the two-full sessions (two months) of the great ICPSR summer camp in Ann Arbor, Michigan. 
 
 
 ## Teaching
