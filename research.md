@@ -8,7 +8,7 @@ In this section you will find my research, both work in progress and published r
 ## Vote-Selling
 
 <p class="message">
-  Work in Progress
+  Work in Progress.
 </p>
 
 ## Clientelism
