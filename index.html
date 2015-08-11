@@ -3,16 +3,35 @@ layout: default
 title: Home
 ---
 
-I’m Héctor Bahamonde, a PhD candidate in the Department of Political Science in Rutgers University (New Brunswick, NJ). 
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}/{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-## Interest
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-My interest focuses on comparative political economy, Latin America, quantitative methods and causal inference.
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
 
-## Headlines
-
-Currently, I am working on several papers related to vote-selling/buying using both observational and experimental data. 
-
-## Thesis
-
-My thesis focuses on state building for the Latin American states. Particularly, it builds on theories proposed by political and development economists as well as economic historians.
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
