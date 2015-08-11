@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               Hector Bahamonde
 tagline:             'Political Science Dpt., Rutgers University'
 description:         ''
-url:                 http://www.hectorbahamonde.com
+url:                 http://hbahamonde.github.io
 baseurl:             ''
 paginate:            5
 
@@ -19,4 +19,4 @@ author:
   email:             hector.bahamonde@rutgers.edu
 
 # Custom vars
-#version:             1.0.0
+version:             1.0.0
