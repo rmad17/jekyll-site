@@ -4,7 +4,7 @@ title: Research
 ---
 
 <p class="lead">
-In this section you will find my research, both work in progress and published research. Feel free to contact me for details.
+In this section you will find my research, both work in progress and published research. Feel free to [contact](mailto:hector.bahamonde@rutgers.edu) me for details.
 </p>
 
 
