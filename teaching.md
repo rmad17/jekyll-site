@@ -8,7 +8,7 @@ In this section you will find information on the different courses I have been i
 </p>
 
 
-## <span style="color:#4E9258">Quantitative Analysis for Political Scientists</span>
+## 1. <span style="color:#4E9258">Quantitative Analysis for Political Scientists</span>
 
 ### Instructor
 
@@ -18,14 +18,14 @@ What is the influence of income on the probability of voting? Is there any syste
 
 To consider these kind of statements in a rigorous way, we will introduce OLS, the workhorse of applied quantitative methodology in social sciences. At the end of the course you will become an educated consumer and producer of quantitative analysis.
 
-## <span style="color:#4E9258">American Government</span>
+## 2. <span style="color:#4E9258">American Government</span>
 
 ### TA (Prof. [Ross Baker](http://polisci.rutgers.edu/cb-profile/userprofile/bakerross))
 
 #### F:14, S:15, F:15
 This survey course covers the major components of U.S. national government. Beginning with the philosophical origins of American constitutionalism, we will proceed to discuss the political and economic context in which the Constitution was written and then examine in detail the Constitution and Bill of Rights. We will then proceed to discussion of the underpinnings of the Constitutional system such as American values, socialization, public opinion and the manner in which they operate.
 
-## <span style="color:#4E9258">Math Camp for Political Scientists</span>
+## 3. <span style="color:#4E9258">Math Camp for Political Scientists</span>
 
 ### Instructor
 
