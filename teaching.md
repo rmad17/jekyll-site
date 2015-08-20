@@ -12,7 +12,7 @@ In this section you will find information on the different courses I have been i
 
 ### Instructor
 
-<img src="/images/plot2.png" alt="" style="width:410px;height:250px;">
+<img src="/images/x1plot.pdf" alt="" style="width:410px;height:250px;">
 
 
 What is the influence of income on the probability of voting? Is there any systematic relationship between democracy and growth? Is it true that correlation does not imply causation? 
