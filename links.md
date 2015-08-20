@@ -3,7 +3,9 @@ layout: page
 title: Links
 ---
 
-#### I Read
+## I Read
+
+### Political Economy, Economic History and Development Economics
 
 - [Journal of Political Economy](http://www.press.uchicago.edu/ucp/journals/journal/jpe.html)
 - [Journal of Public Economics](http://www.journals.elsevier.com/journal-of-public-economics/)
@@ -17,11 +19,17 @@ title: Links
 - [Journal of Law and Economics](http://www.press.uchicago.edu/ucp/journals/journal/jle.html)
 - [Journal of Legal Pluralism and Unofficial Law](http://www.tandfonline.com/toc/rjlp20/current)
 - [Comparative Political Studies](http://cps.sagepub.com/)
+
+### Comparative Politics, Latin American Politics
+
 - [Journal of Politics](http://www.journalofpolitics.org/)
 - [Journal of Democracy](http://www.journalofdemocracy.org/articles/tables-contents)
 - [Latin American Research Review](http://lasa.international.pitt.edu/eng/LARR/index.asp)
 - [Journal of Latin American Studies](http://journals.cambridge.org/action/displayJournal?jid=LAS)
 - [Journal of Politics in Latin America](http://journals.sub.uni-hamburg.de/giga/jpla)
+
+### Experimental Methods and Statistics
+
 - [Journal of Experimental Political Science](http://journals.cambridge.org/action/displayJournal?jid=XPS)
 - [Observational Studies](http://obsstudies.org/)
 - [Journal of Statistical Software](http://www.hectorbahamonde.com/www.jstatsoft.org/)
@@ -32,8 +40,13 @@ title: Links
 - [Journal of Survey Statistics and Methodology](http://www.hectorbahamonde.com/jssam.oxfordjournals.org/)
 - [Journal of Clinical Epidemiology](http://www.jclinepi.com/)
 - [Sociological Methods and Research](http://smr.sagepub.com/)
+
+### Party Politics
 - [Electoral Studies](http://www.sciencedirect.com/science/journal/02613794)
 - [Party Politics](http://www.partypolitics.org/)
+
+### Political Science in general
+
 - [American Political Science Review](http://journals.cambridge.org/action/displayJournal?jid=PSR)
 - [American Journal of Political Science](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1540-5907)
 - [Political Psychology](http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291467-9221)
@@ -41,7 +54,7 @@ title: Links
 
 ---
 
-#### Professional Membership
+## Professional Membership
 
 - [The Society for Political Methodology](http://polmeth.wustl.edu/)
 - [Latin American Studies Association](http://lasa.international.pitt.edu/)
