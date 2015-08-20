@@ -10,6 +10,5 @@ Download my CV here
 
 ---
 
-[Download my CV](/Users/hectorbahamonde/RU/CV/Inglés_academico/fancy-cv/cv.pdf)
+[Download my CV](/Users/hectorbahamonde/RU/CV/cv.pdf)
 
-(file: /Users/hectorbahamonde/RU/CV/Inglés_academico/fancy-cv/cv.pdf)
