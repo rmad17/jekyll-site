@@ -42,6 +42,8 @@ title: Links
 - [Journal of Survey Statistics and Methodology](http://www.hectorbahamonde.com/jssam.oxfordjournals.org/)
 - [Journal of Clinical Epidemiology](http://www.jclinepi.com/)
 - [Sociological Methods and Research](http://smr.sagepub.com/)
+- [Political Psychology](http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291467-9221)
+
 
 ### Party Politics
 - [Electoral Studies](http://www.sciencedirect.com/science/journal/02613794)
@@ -51,7 +53,6 @@ title: Links
 
 - [American Political Science Review](http://journals.cambridge.org/action/displayJournal?jid=PSR)
 - [American Journal of Political Science](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1540-5907)
-- [Political Psychology](http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291467-9221)
 - [Public Opinion Quarterly](http://poq.oxfordjournals.org/)
 
 ---
