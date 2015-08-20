@@ -4,9 +4,10 @@ title: Research
 ---
 
 
-<p class="lead">
-In this section you will find my research, both work in progress and published research. Feel free to contact me for details.
-</p>
+#### Replicability 
+
+I believe **everything** should be replicable and open source. When available, all my papers, data, R and LaTeX code will be available in a corresponding [GitHub repository](https://github.com/hbahamonde?tab=repositories). Presumably, using the [knitr](yihui.name/knitr/) package.
+
 
 ---
 
