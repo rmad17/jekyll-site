@@ -32,7 +32,7 @@ This survey course covers the major components of U.S. national government. Begi
 
 ### Instructor
 
-<img src="/images/plot2.pdf" alt="" style="width:400px;height:400px;">
+<img src="/images/plot2.pdf" alt="" style="width:600px;height:400px;">
 
 
 The primary purpose of math camp is to provide students with a set of skills that will be needed to perform well in the quantitative methods courses offered at Rutgers and elsewhere. It will cover the foundational material of matrix algebra, basic calculus and basic probability.
