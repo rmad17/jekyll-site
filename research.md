@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Research
-permalink: index.html
 ---
 
 <p class="lead">
