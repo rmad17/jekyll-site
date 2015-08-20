@@ -10,5 +10,5 @@ Download my CV here
 
 ---
 
-[Download my CV](/resources/cv.pdf)
+[download](/resources/cv.pdf)
 
