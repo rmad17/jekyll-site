@@ -20,3 +20,8 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+# It incorporates post order
+custom_navigation_bar:
+ - {title: foo_title1, group: navigation, url:bar_url1}
+ - {title: foo_title2, group: navigation, url:bar_url2}
