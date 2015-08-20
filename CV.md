@@ -10,5 +10,5 @@ Download my CV here
 
 ---
 
-[Download my CV](/Users/hectorbahamonde/RU/CV/cv.pdf)
+[Download my CV](/resources/cv.pdf)
 
