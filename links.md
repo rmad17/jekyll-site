@@ -30,7 +30,7 @@ title: Links
 - [Journal of Latin American Studies](http://journals.cambridge.org/action/displayJournal?jid=LAS)
 - [Journal of Politics in Latin America](http://journals.sub.uni-hamburg.de/giga/jpla)
 
-### Experimental Methods and Statistics
+### Experimental Methods, Statistics and Software
 
 - [Journal of Experimental Political Science](http://journals.cambridge.org/action/displayJournal?jid=XPS)
 - [Observational Studies](http://obsstudies.org/)
