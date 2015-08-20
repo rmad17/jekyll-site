@@ -16,7 +16,7 @@ As an undergraduate student, it is important you familiarize yourself with [how 
 ---
 
 ## Grade Appealing Policy
-As an undergraduate student, it is your right to ask for a grade appealing. At the same time, I take grading very seriously. Please, read carefully my policy on grade appeals.
+As an undergraduate student, it is your right to ask for a grade appealing. At the same time, I take grading very seriously. Please, read carefully [my policy](/resources/ReGrade_Policy.pdf) on grade appeals.
 
 ---
 
