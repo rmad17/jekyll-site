@@ -17,6 +17,9 @@ In this section you will find my research, both work in progress and published r
   Work in Progress.
 </p>
 
+---
+
+
 ### 2. Clientelism
 
 <img src="/images/effects_density.pdf" alt="" style="width:400px;height:400px;">

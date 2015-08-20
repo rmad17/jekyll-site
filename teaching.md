@@ -19,6 +19,9 @@ What is the influence of income on the probability of voting? Is there any syste
 
 To consider these kind of statements in a rigorous way, we will introduce OLS, the workhorse of applied quantitative methodology in social sciences. At the end of the course you will become an educated consumer and producer of quantitative analysis.
 
+---
+
+
 ## 2. <span style="color:#4E9258">American Government</span>
 
 ### TA (Prof. <a href="http://polisci.rutgers.edu/cb-profile/userprofile/bakerross" target="_blank">Ross Baker</a>)
@@ -27,6 +30,9 @@ To consider these kind of statements in a rigorous way, we will introduce OLS, t
 
 
 This survey course covers the major components of U.S. national government. Beginning with the philosophical origins of American constitutionalism, we will proceed to discuss the political and economic context in which the Constitution was written and then examine in detail the Constitution and Bill of Rights. We will then proceed to discussion of the underpinnings of the Constitutional system such as American values, socialization, public opinion and the manner in which they operate.
+
+---
+
 
 ## 3. <span style="color:#4E9258">Math Camp for Political Scientists</span>
 
