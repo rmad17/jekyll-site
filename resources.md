@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resources
+title: Resources for students
 ---
 
 <p class="lead">
