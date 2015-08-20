@@ -3,9 +3,12 @@ layout: page
 title: Teaching
 ---
 
+
 <p class="lead">
 In this section you will find information on the different courses I have been involved with, both as a TA or instructor.
 </p>
+
+---
 
 
 ## 1. <span style="color:#4E9258">Quantitative Analysis for Political Scientists</span>
