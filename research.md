@@ -10,7 +10,7 @@ In this section you will find my research, both work in progress and published r
 
 ### 1. Vote-Selling
 
-<img src="/images/libcon_prop.pdf" alt="" style="width:600px;height:400px;">
+<img src="/images/libcon_prop.pdf" alt="" style="width:600px;height:300px;">
 
 
 <p class="message">
