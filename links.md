@@ -4,6 +4,7 @@ title: Links
 ---
 
 ---
+
 ## Replicability 
 
 I believe *everything* should be replicable and open source.
