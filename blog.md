@@ -16,6 +16,8 @@ In this section, I will be posting useful stuff that I have found to be helpful 
 - [Rutgers PhD Dissertation Format in LaTeX](#latexrutgers)
 - [Knitr](#knitr)
 
+---
+
 
 <div id='latexrutgers'/>
 ## Write a PhD dissertation using the required Rutgers formatting style
@@ -80,15 +82,17 @@ Now follow the next steps:
 \end{vita} 
 
 \end{document} 
-´´´
+```
 
 That's it.
 
 
+---
 
 
 <div id='knitr'/>
 ## Write replicable papers using the R package "Knitr"
+WIP.
 
 
 
