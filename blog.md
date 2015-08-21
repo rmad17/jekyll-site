@@ -26,12 +26,12 @@ Rutgers requires a very specific formatting [style](http://gsnb.rutgers.edu/acad
 
 Now follow the next steps:
 
-0. I would assume you have LaTex up and running.
+0. I would assume you have LaTeX up and running.
 1. Download the style file [here](/resources/ruthesis.cls).
 2. Put the style file into your dissertation root folder.
 3. Write your dissertation: I have also outsourced an example from the [math folks](http://www.math.rutgers.edu/grad/phd_requirements/thesis.html), where I did some modifications. See the LaTeX code below.
 
-```
+```latex
 \documentclass{ruthesis} 
 \special{papersize=8.5in,11in} %***for A4-default configurations on servers 
 \begin{document} 
