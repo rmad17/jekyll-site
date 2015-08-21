@@ -31,7 +31,7 @@ Now follow the next steps:
 2. Put the style file into your dissertation root folder.
 3. Write your dissertation: I have also outsourced an example from the [math folks](http://www.math.rutgers.edu/grad/phd_requirements/thesis.html), where I did some modifications. See the LaTeX code below.
 
-```html
+```
 
 \documentclass{ruthesis} 
 \special{papersize=8.5in,11in} %***for A4-default configurations on servers 
@@ -83,13 +83,9 @@ Now follow the next steps:
 \end{vita} 
 
 \end{document} 
+
 ```
 
-```html
-<body class="theme-base-08">
-  ...
-</body>
-```
 
 That's it.
 
