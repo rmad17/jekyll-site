@@ -12,6 +12,10 @@ url:                 http://hbahamonde.github.io
 baseurl:             ''
 paginate:            5
 
+# Syntax Highlighting 
+markdown: redcarpet
+highlighter: pygments
+
 # About/contact
 author:
   name:              Hector Bahamonde
