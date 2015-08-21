@@ -85,6 +85,12 @@ Now follow the next steps:
 \end{document} 
 ```
 
+```html
+<body class="theme-base-08">
+  ...
+</body>
+```
+
 That's it.
 
 
