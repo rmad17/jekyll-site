@@ -6,7 +6,7 @@ title: Research
 
 #### Replicability 
 
-I believe **everything** should be replicable and open source. When available, all my papers, data, R and LaTeX code will be available in a corresponding [GitHub repository](https://github.com/hbahamonde?tab=repositories). Presumably, using the [knitr](yihui.name/knitr/) package.
+I believe **everything** should be replicable and open source. When available, all my papers, data, R and LaTeX code will be available in a corresponding [GitHub repository](https://github.com/hbahamonde?tab=repositories). Presumably, using the [knitr](http://yihui.name/knitr/) package.
 
 
 ---
