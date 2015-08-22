@@ -16,6 +16,8 @@ I believe **everything** should be replicable and open source. When available, a
 
 <img src="/resources/libcon_prop.pdf" alt="" style="width:600px;height:300px;">
 
+<a href="http://www.hectorbahamonde.com"><i class="fa fa-download"></i> <a href="http://www.hectorbahamonde.com"><i class="fa fa-download"></i> <a href="http://www.hectorbahamonde.com"><i class='fa fa-github-square'></i></a>
+
 
 <p class="message">
   Work in Progress.
