@@ -14,7 +14,7 @@ In this section, I will be posting useful stuff that I have found to be helpful 
 # TOC
 
 - [Rutgers PhD Dissertation Format in LaTeX](#latexrutgers)
-- [Knitr](#knitr)
+- [Write replicable papers using the R package "Knitr"](#knitr)
 
 ---
 
