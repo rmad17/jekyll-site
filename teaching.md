@@ -30,7 +30,7 @@ To consider these kind of statements in a rigorous way, we will introduce OLS, t
 
 ## 2. <span style="color:#4E9258">American Government</span>
 
-### TA (Prof. <a href="http://polisci.rutgers.edu/cb-profile/userprofile/bakerross" target="_blank">Ross Baker</a>)
+### TA (Prof. [Ross Baker](http://polisci.rutgers.edu/cb-profile/userprofile/bakerross))
 
 <img src="/resources/usmap.jpg" alt="" style="width:600px;height:400px;">
 
