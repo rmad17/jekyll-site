@@ -15,7 +15,7 @@ As an undergraduate student, it is important you familiarize yourself with [how 
 
 
   <div class="sidebar-item">
-    <a href="mailto:hector.bahamonde@rutgers.edu"><i class="fa fa-envelope fa-3x" style="color:#d21034"></i></a>
+    <a href="mailto:hector.bahamonde@rutgers.edu"><i class="fa fa-envelope fa-2x" style="color:#d21034"></i></a>
   </div>
 
 
@@ -26,7 +26,7 @@ As an undergraduate student, it is your right to ask for a grade appealing. At t
 
 
   <div class="sidebar-item">
-    <a href="/resources/ReGrade_Policy.pdf"><i class="fa fa-file-pdf-o fa-3x" style="color:#d21034"></i></a>
+    <a href="/resources/ReGrade_Policy.pdf"><i class="fa fa-file-pdf-o fa-2x" style="color:#d21034"></i></a>
   </div>
 
 
@@ -37,7 +37,7 @@ As an undergraduate student, it is your right to ask for a grade appealing. At t
 If you need to see me, **do not email me** but instead make directly an appointment by clicking the link below. There is *no* need for confirmation. I will receive an alert when you schedule a meeting with me.
 
   <div class="sidebar-item">
-    <a href="https://calendly.com/bahamonde/officehours"><i class="fa fa-calendar-check-o fa-3x" style="color:#d21034"></i></a>
+    <a href="https://calendly.com/bahamonde/officehours"><i class="fa fa-calendar-check-o fa-2x" style="color:#d21034"></i></a>
   </div>
 
 
