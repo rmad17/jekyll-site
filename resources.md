@@ -15,7 +15,7 @@ As an undergraduate student, it is important that you familiarize yourself with 
 
 
   <div class="sidebar-item">
-    <a href="http://uhr.rutgers.edu/sites/default/files/userfiles/RU_Toolkit-E-mail_Etiquette.pdf"><i class="fa fa-file-pdf-o fa-2x" style="color:#d21034"></i></a>
+    <a href="http://uhr.rutgers.edu/sites/default/files/userfiles/RU_Toolkit-E-mail_Etiquette.pdf"><i class="fa fa-external-link fa-2x" style="color:#d21034"></i></a>
     <a href="mailto:hector.bahamonde@rutgers.edu"><i class="fa fa-envelope fa-2x" style="color:#d21034"></i></a>
   </div>
 
