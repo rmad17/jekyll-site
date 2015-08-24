@@ -11,10 +11,11 @@ In this section you will find various information regarding my teaching policy o
 
 
 ## Rutgers Email Etiquette
-As an undergraduate student, it is important you familiarize yourself with [how to write proper emails](http://uhr.rutgers.edu/sites/default/files/userfiles/RU_Toolkit-E-mail_Etiquette.pdf) when communicating with your TA. Remember that if you have a question, *contact me first*. Professor are always very busy, so it is my job to be the first in trying to answer your questions.
+As an undergraduate student, it is important that you familiarize yourself with **how to write proper emails** when communicating with your TA. Remember that if you have a question, **contact me first**. Professor are always *very busy*, so it is my job to be the first in trying to answer your questions.
 
 
   <div class="sidebar-item">
+    <a href="http://uhr.rutgers.edu/sites/default/files/userfiles/RU_Toolkit-E-mail_Etiquette.pdf"><i class="fa fa-file-pdf-o fa-2x" style="color:#d21034"></i></a>
     <a href="mailto:hector.bahamonde@rutgers.edu"><i class="fa fa-envelope fa-2x" style="color:#d21034"></i></a>
   </div>
 
