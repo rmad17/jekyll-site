@@ -20,11 +20,13 @@ title: Links
 - [The Economic History Review](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1468-0289)
 - [Journal of Law and Economics](http://www.press.uchicago.edu/ucp/journals/journal/jle.html)
 - [Journal of Legal Pluralism and Unofficial Law](http://www.tandfonline.com/toc/rjlp20/current)
-- [Comparative Political Studies](http://cps.sagepub.com/)
+
 
 ### Comparative Politics, Latin American Politics
 
+- [Comparative Political Studies](http://cps.sagepub.com/)
 - [Journal of Politics](http://www.journalofpolitics.org/)
+- [Comparative Politics](http://jcpgc.ws.gc.cuny.edu/)
 - [Journal of Democracy](http://www.journalofdemocracy.org/articles/tables-contents)
 - [Latin American Research Review](http://lasa.international.pitt.edu/eng/LARR/index.asp)
 - [Journal of Latin American Studies](http://journals.cambridge.org/action/displayJournal?jid=LAS)
