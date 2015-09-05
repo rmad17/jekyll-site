@@ -134,11 +134,11 @@ First you will need a software to handle code and syntax highlighting. I use [Su
 
 Now, here is an example of a `R` code chunk.
 
-<<label>>=
+```{r label}
 set.seed(602) # Speaking of reproducibility, don't forget to set a seed so others can generate the SAME sequence!
 e <-  as.numeric(mvrnorm(n = 100, mu = 0, Sigma = 1))
 densityplot(e, aspect = 1:1)
-@
+```
 
 You can also write inline expressions, e.g. $\pi=\Sexpr{pi}$, and \Sexpr{1.598673e8} is a big number.
 
@@ -146,9 +146,9 @@ Also, you can use information specified in your code such as the mean of `e` whi
 
 Editors and (most) readers are {\bf not} interested in our coding. So you can hide it by calling the `echo = FALSE` function in the preamble.
 
-<<label, echo = FALSE>>=
+```{r label , echo = FALSE}
 histogram(e, aspect = 1:1)
-@
+```
 
 Finally, following the standard `LaTeX` tools, you can call this of \autoref{fig:label} by calling the `\autoref{fig:label}` function.
 
