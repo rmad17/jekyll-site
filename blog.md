@@ -108,23 +108,23 @@ As [some](http://kbroman.org/knitr_knutshell/) have explained it, "KnitR is a re
 
 In this section I will describe *my* take on literate programming: not the best, not the only one. Just the one I use.
 
-1. Text processor and necessary dependencies.
+* Text processor and necessary dependencies.
 
 First you will need a software to handle code and syntax highlighting. I use [Sublime Text 2](http://www.sublimetext.com/2). 
-a. Have [Sublime Text 2](http://www.sublimetext.com/2) installed.
+	* Have [Sublime Text 2](http://www.sublimetext.com/2) installed.
 
-b. Inside Sublime Text: 
-	a. Install [Package Control](https://packagecontrol.io/installation).
-	b. `shift+cmd+p`, then `Install Packages`, and install:
-		1. [R-Box](https://github.com/randy3k/R-Box)
-		2. [Sublime Knitr](https://github.com/andrewheiss/SublimeKnitr)
-		3. [LaTexing](http://www.latexing.com/installation.html) or [LaTeX Tools](https://github.com/SublimeText/LaTeXTools) .
+	* Inside Sublime Text: 
+		a. Install [Package Control](https://packagecontrol.io/installation).
+		b. `shift+cmd+p`, then `Install Packages`, and install:
+			1. [R-Box](https://github.com/randy3k/R-Box)
+			2. [Sublime Knitr](https://github.com/andrewheiss/SublimeKnitr)
+			3. [LaTexing](http://www.latexing.com/installation.html) or [LaTeX Tools](https://github.com/SublimeText/LaTeXTools) .
 
-c. *If you're using LaTeX Tools*, follow the instructions to patch it [here](https://github.com/andrewheiss/SublimeKnitr#manual-patch-for-latextools) - that's right, patch the 6 files!
+	* *If you're using LaTeX Tools*, follow the instructions to patch it [here](https://github.com/andrewheiss/SublimeKnitr#manual-patch-for-latextools) - that's right, patch the 6 files!
 
-2. Writing `R` and `LaTeX` code.
+* Writing `R` and `LaTeX` code.
 
-a. Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw), the developer of `knitr`.
+	* Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw), the developer of `knitr`.
 
 ```tex
 \documentclass{article}
@@ -158,6 +158,7 @@ Finally, following the standard `LaTeX` tools, you can call this of \autoref{fig
 ```
 
 
+```tex
 \documentclass{article}
 \begin{document}
 
@@ -176,6 +177,7 @@ hist(rnorm(100), main = '')  # no main title
 @
 
 \end{document}
+```
 
 My intention is not show you everything, just to give you a hint how these stuff look like. Please to refer to the `knitr`, `LaTeX`, `R` and `Sublime Text` manuals for more details.
 
