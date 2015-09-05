@@ -126,6 +126,9 @@ First you will need a software to handle code and syntax highlighting. I use [Su
 
 	* Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw), the developer of `knitr`.
 
+**Below is WIP**
+
+
 ```tex
 \documentclass{article}
 \usepackage[T1]{fontenc}
@@ -157,27 +160,6 @@ Finally, following the standard `LaTeX` tools, you can call this of \autoref{fig
 \end{document}
 ```
 
-
-```tex
-\documentclass{article}
-\begin{document}
-
-<<setup>>=
-library(knitr)
-knit_hooks$set(pars = function(before, options, envir) {
-  if (before) do.call(graphics::par, options$pars)
-})
-@
-
-Then this function will be called for a chunk like this:
-
-% pass a list of graphics parameters to par()
-<<myplot, pars=list(mar = c(4, 4, .1, .1))>>=
-hist(rnorm(100), main = '')  # no main title
-@
-
-\end{document}
-```
 
 My intention is not show you everything, just to give you a hint how these stuff look like. Please to refer to the `knitr`, `LaTeX`, `R` and `Sublime Text` manuals for more details.
 
