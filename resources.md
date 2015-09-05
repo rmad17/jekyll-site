@@ -11,7 +11,7 @@ In this section you will find various information regarding my teaching policy o
 
 
 ## Rutgers Email Etiquette
-As an undergraduate student, it is important that you familiarize yourself with **how to write proper emails** when communicating with your TA. Remember that if you have a question, **contact me first**. Professor are always *very busy*, so it is my job to be the first in trying to answer your questions.
+As an undergraduate student, it is important that you familiarize yourself with **how to write proper emails** when communicating with your TA. Remember that if you have a question, **contact me first**. Professors are always *very busy*, so it is my job to be the first one in trying to answer your questions.
 
 
   <div>
@@ -23,7 +23,7 @@ As an undergraduate student, it is important that you familiarize yourself with 
 ---
 
 ## Grade Appealing Policy
-As an undergraduate student, it is your right to ask for a grade appealing. At the same time, I take grading very seriously. Please, read carefully my policy on grade appeals.
+As an undergraduate student, it is your right to ask for a grade appeal. At the same time, I take grading very seriously. Please, read carefully my policy on grade appeals.
 
 
   <div>

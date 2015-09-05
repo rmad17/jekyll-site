@@ -94,8 +94,76 @@ That's it.
 
 
 <div id='knitr'/>
-## Write replicable papers using the R package "Knitr"
-WIP.
+## Literate programming: Write replicable papers using the R package "Knitr"
+
+Political *Science* is not a *science* because of *what* we study, but because of *how* we study it, that is, it is a *science* (**regardless of the precision of our instruments**) because we use the scientific method. No more, no less.
+
+As you might remember from your intro to epistemology class, *replication* plays a fundamental role in scientific progress. It allows *us*, the scientific community, to evaluate (more or less) collectively if new findings are to be considered "better" than past knowledge. In this process, we ought to know, among many other things, how this new piece of finding was produced. 
+
+Some research projects are more reproducible than others. And so, *cherry-picking* is very common among faculty and grad students, unfortunately. In order to make this process more transparent and verifiable, quantitative researchers need to have access to one's coding and data. And not only that, but also to one's own methodological/empirical decisions: Why did I choose this or that model? What did I do with my missing data? And so own and so forth. 
+
+As [some](http://kbroman.org/knitr_knutshell/) have explained it, "KnitR is a really important tool for reproducible research. You create documents that are a mixture of text and code; when processed through KnitR, the code is replaced by the results and/or figures produced". It was developed by [Yihui Xie](http://yihui.name/). That's exactly what **literate programming** is: a combination of `LaTeX` code (your text) plus `R` code (your analyses), in *the same document*. Thus, everything you see in the document can be easily accessed by looking at the very code that produced the results.
+
+### Installation
+
+In this section I will describe *my* take on literate programming: not the best, not the only one. Just the one I use.
+
+1. Text processor and necessary dependencies.
+
+First you will need a software to handle code and syntax highlighting. I use [Sublime Text 2](http://www.sublimetext.com/2). 
+- Have [Sublime Text 2](http://www.sublimetext.com/2) installed.
+
+- Inside Sublime Text: 
+	a. Install [Package Control](https://packagecontrol.io/installation).
+	b. `shift+cmd+p`, then `Install Packages`, and install:
+		1. [R-Box](https://github.com/randy3k/R-Box)
+		2. [Sublime Knitr](https://github.com/andrewheiss/SublimeKnitr)
+		3. [LaTexing](http://www.latexing.com/installation.html) or [LaTeX Tools](https://github.com/SublimeText/LaTeXTools) .
+
+- *If you're using LaTeX Tools*, follow the instructions to patch it [here](https://github.com/andrewheiss/SublimeKnitr#manual-patch-for-latextools) - that's right, patch the 6 files!
+
+2. Writing `R` and `LaTeX` code.
+
+- Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw), the developer of `knitr`.
+
+```tex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+Now, here is an example of a `R` code chunk.
+
+<<label>>=
+set.seed(602) # Speaking of reproducibility, don't forget to set a seed so others can generate the SAME sequence!
+e <-  as.numeric(mvrnorm(n = 100, mu = 0, Sigma = 1))
+densityplot(e, aspect = 1:1)
+@
+
+You can also write inline expressions, e.g. $\pi=\Sexpr{pi}$, and \Sexpr{1.598673e8} is a big number.
+
+Also, you can use information specified in your code such as the mean of `e` which is $\Sexpr{mean(e)}$ (which I computed calling the mean function, like so $\Sexpr{mean(e)}$). 
+
+Editors and (most) readers are {\bf not} interested in our coding. So you can hide it by calling the `echo = FALSE` function in the preamble.
+
+<<label, echo = FALSE>>=
+histogram(e, aspect = 1:1)
+@
+
+Finally, following the standard `LaTeX` tools, you can call this of \autoref{fig:label} by calling the `\autoref{fig:label}` function.
+
+\end{document}
+```
+
+My intention is not show you everything, just to give you a hint how these stuff look like. Please to refer to the `knitr`, `LaTeX`, `R` and `Sublime Text` manuals for more details.
+
+
+
+
+
+
+
+
 
 
 

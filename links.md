@@ -55,7 +55,6 @@ title: Links
 
 - [American Political Science Review](http://journals.cambridge.org/action/displayJournal?jid=PSR)
 - [American Journal of Political Science](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1540-5907)
-- [Public Opinion Quarterly](http://poq.oxfordjournals.org/)
 
 ---
 
