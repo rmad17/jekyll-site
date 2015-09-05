@@ -132,11 +132,6 @@ First you will need a software to handle code and syntax highlighting. I use [Su
 
 \begin{document}
 
-Here you write your paper 
-
-\end{document}
-```
-
 Now, here is an example of a `R` code chunk.
 
 ```{r label}
@@ -158,6 +153,13 @@ histogram(e, aspect = 1:1)
 ```
 
 Finally, following the standard `LaTeX` tools, you can call this of \autoref{fig:label} by calling the `\autoref{fig:label}` function.
+
+
+
+
+\end{document}
+```
+
 
 
 
