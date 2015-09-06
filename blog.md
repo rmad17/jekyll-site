@@ -108,26 +108,28 @@ As [some](http://kbroman.org/knitr_knutshell/) have explained it, "KnitR is a re
 
 In this section I will describe *my* take on literate programming: not the best, not the only one. Just the one I use.
 
-1. Text processor and necessary dependencies: First you will need a software to handle code and syntax highlighting. I use [Sublime Text 2](http://www.sublimetext.com/2). Have [Sublime Text 2](http://www.sublimetext.com/2) installed.
+1. Text processor and necessary dependencies: First you will need a software to handle code and syntax highlighting. I use [Sublime Text 2](http://www.sublimetext.com/2). Have [Sublime Text 2](http://www.sublimetext.com/2) installed. 
+
+	1. Of course you can just R-Studio to compile all these.
 
 2. Inside Sublime Text: 
 	1. Install [Package Control](https://packagecontrol.io/installation).
-	2. `shift+cmd+p`, then `Install Packages`, and install:
+	2. `shift+cmd+p`, then **Install Packages**, and install:
 		1. [R-Box](https://github.com/randy3k/R-Box)
 		2. [Sublime Knitr](https://github.com/andrewheiss/SublimeKnitr)
-		3. [LaTexing](http://www.latexing.com/installation.html) or [LaTeX Tools](https://github.com/SublimeText/LaTeXTools) .
+		3. [LaTexing](http://www.latexing.com/installation.html) or [LaTeX Tools](https://github.com/SublimeText/LaTeXTools).
 
 3. *If you're using LaTeX Tools*, follow the instructions to patch it [here](https://github.com/andrewheiss/SublimeKnitr#manual-patch-for-latextools) - that's right, patch the 6 files!
 
-4. In `R` you have to install `knitr`
-
+4. In **R** you have to install **knitr**: 
 `install.packages(c("knitr"), repos = "http://cran.rstudio.com")`
 
-5. Writing `R` and `LaTeX` code
+5. Writing **R** and **LaTeX** code together:
 
 Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw), the developer of `knitr`.
 
 
+**WIP** below.
 
 ```tex
 
@@ -147,9 +149,10 @@ Now, here is an example of a `R` code chunk.
 # Speaking of reproducibility, don't forget to set a seed 
 # so others can generate the SAME sequence!
 set.seed(602) 
+library(MASS) # to generate multi-var distribution
 e <-  as.numeric(mvrnorm(n = 100, mu = 0, Sigma = 1))
-densityplot(e, aspect = 1:1)
-``` 
+plot(e)
+```
 
 You can also write inline expressions, e.g. $\pi=\Sexpr{pi}$, and \Sexpr{1.598673e8} is a big number.
 
@@ -157,10 +160,9 @@ Also, you can use information specified in your code such as the mean of `e` whi
 
 Editors and (most) readers are {\bf not} interested in our coding. So you can hide it by calling the `echo = FALSE` function in the preamble.
 
-<<r label , echo = FALSE>>=
-library(knitr)
-histogram(e, aspect = 1:1)
-@
+```{r label , echo = FALSE}
+histogram(e)
+```
 
 Finally, following the standard `LaTeX` tools, you can call this of \autoref{fig:label} by calling the `\autoref{fig:label}` function.
 
