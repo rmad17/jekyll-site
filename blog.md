@@ -119,9 +119,13 @@ In this section I will describe *my* take on literate programming: not the best,
 
 3. *If you're using LaTeX Tools*, follow the instructions to patch it [here](https://github.com/andrewheiss/SublimeKnitr#manual-patch-for-latextools) - that's right, patch the 6 files!
 
-4. Writing `R` and `LaTeX` code.
+4. In `R` you have to install `knitr`
 
-	* Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw), the developer of `knitr`.
+`install.packages(c("knitr"), repos = "http://cran.rstudio.com")`
+
+5. Writing `R` and `LaTeX` code
+
+Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw), the developer of `knitr`.
 
 
 
@@ -133,6 +137,11 @@ In this section I will describe *my* take on literate programming: not the best,
 \begin{document}
 
 Now, here is an example of a `R` code chunk.
+
+\end{document}
+
+```
+
 
 <<r label>>=
 library(knitr)
@@ -153,10 +162,6 @@ histogram(e, aspect = 1:1)
 @
 
 Finally, following the standard `LaTeX` tools, you can call this of \autoref{fig:label} by calling the `\autoref{fig:label}` function.
-
-\end{document}
-
-```
 
 
 My intention is not show you everything, just to give you a hint how these stuff look like. Please to refer to the `knitr`, `LaTeX`, `R` and `Sublime Text` manuals for more details.
