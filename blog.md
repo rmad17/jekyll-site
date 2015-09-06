@@ -143,12 +143,12 @@ Now, here is an example of a `R` code chunk.
 ```
 
 
-<<r label>>=
-library(knitr)
+{% highlight r %}
 set.seed(602) # Speaking of reproducibility, don't forget to set a seed so others can generate the SAME sequence!
 e <-  as.numeric(mvrnorm(n = 100, mu = 0, Sigma = 1))
 densityplot(e, aspect = 1:1)
-@
+{% endhighlight %}
+
 
 You can also write inline expressions, e.g. $\pi=\Sexpr{pi}$, and \Sexpr{1.598673e8} is a big number.
 
