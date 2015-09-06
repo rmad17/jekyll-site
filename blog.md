@@ -126,10 +126,10 @@ First you will need a software to handle code and syntax highlighting. I use [Su
 
 	* Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw), the developer of `knitr`.
 
-**Below is WIP**
 
 
 ```tex
+
 \documentclass{article}
 \usepackage[T1]{fontenc}
 
@@ -158,6 +158,7 @@ histogram(e, aspect = 1:1)
 Finally, following the standard `LaTeX` tools, you can call this of \autoref{fig:label} by calling the `\autoref{fig:label}` function.
 
 \end{document}
+
 ```
 
 
