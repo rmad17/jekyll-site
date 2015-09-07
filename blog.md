@@ -107,7 +107,7 @@ As [some](http://kbroman.org/knitr_knutshell/) have explained it, "KnitR is a re
 
 In this section I will describe *my* take on literate programming: not the best, not the only one. Just the one I use.
 
-* Text processor and necessary dependencies: First you will need a software to handle code and syntax highlighting. I use [Sublime Text 2](http://www.sublimetext.com/2). Have [Sublime Text 2](http://www.sublimetext.com/2) installed. 
+* Text processor and necessary dependencies: First you will need a software to handle code and syntax highlighting. I use [Sublime Text 2](http://www.sublimetext.com/2). Have Sublime Text 2 [installed](http://www.sublimetext.com/2). 
 
 	Of course you can just **R-Studio** to compile all these, of course, under the **knitr** mode: **Preferences --> Sweave --> Weave Rnw files using --> knitr**.
 
