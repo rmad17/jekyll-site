@@ -128,7 +128,7 @@ In this section I will describe *my* take on literate programming: not the best,
 
 Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw), the developer of **knitr**.
 
-6. Example: Lets try an example.
+6. Example: Lets try an example. See the output below.
 
 ---
 
@@ -162,12 +162,9 @@ hist(e)
 Finally, following the standard **LaTeX** tools, you can call the first figure using the `\autoref{fig:label}` function. Similarly, you can call the second one by typing the `\autoref{fig:histogram}` function.
 
 
-\end{document}
+---
 
-
-
-
-
+And here is the code.
 
 ```tex
 \documentclass{article}
