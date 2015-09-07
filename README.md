@@ -14,9 +14,9 @@ This website is proudly open sourced under the [MIT license](https://github.com/
 
 #### Installation
 
-Mac users: open command line and enter the following lines, separately.
+Mac users: open **command line** and enter the following lines, separately.
 
-1. Install Homebrew: 
+1. Install **[Homebrew](http://brew.sh)**: 
 
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -28,7 +28,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 Then, open your browser and,
 
-5. [Install](https://nodejs.org) `NODE JS`.
+5. [Install](https://nodejs.org) **NODE JS**.
 
 Finally, download the fonts:
 
