@@ -134,7 +134,7 @@ Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https:
 
 Here is a code chunk.
 
-```{r 
+```r 
 <<label, fig.cap='Your Title Goes Here', tidy=TRUE>>=
 # Speaking of reproducibility, don't forget to set a seed so others can generate the SAME sequence!
 set.seed(602) 
@@ -153,7 +153,7 @@ Also, you can use information specified in your code such as the mean of **e** w
 
 Editors and (**most**) readers are {**not**} interested in your coding. That's fine. The important thing is to make your code available to the audience that needs it. You can hide it by calling the `echo = FALSE` function in the preamble, i.e. within the `<<>>=` symbols. Below, you will only see the plot, not the coding that generated it.
 
-```{r 
+```r 
 <<histogram, echo = FALSE, fig.cap='Your Title Goes Here'>>=
 hist(e)
 @
@@ -195,9 +195,7 @@ hist(e)
 
 Finally, following the standard {\bf LaTeX} tools, you can call the first figure using the \autoref{fig:label} function. Similarly, you can call the second one by typing the \texttt{\autoref{fig:histogram}} function.
 
-
 \end{document}
-
 ```
 
 
