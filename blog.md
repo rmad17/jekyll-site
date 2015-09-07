@@ -110,7 +110,7 @@ In this section I will describe *my* take on literate programming: not the best,
 
 1. Text processor and necessary dependencies: First you will need a software to handle code and syntax highlighting. I use [Sublime Text 2](http://www.sublimetext.com/2). Have [Sublime Text 2](http://www.sublimetext.com/2) installed. 
 
-	* Of course you can just **R-Studio** to compile all these, of course, under the **Sweave** mode.
+	* Of course you can just **R-Studio** to compile all these, of course, under the **knitr** mode: **Preferences --> Sweave --> Weave Rnw files using --> knitr**.
 
 2. Inside Sublime Text: 
 	1. Install [Package Control](https://packagecontrol.io/installation).
@@ -128,26 +128,80 @@ In this section I will describe *my* take on literate programming: not the best,
 
 Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw), the developer of **knitr**.
 
+6. Example: Lets try an example.
 
-**WIP** below.
+---
+
+Here is a code chunk.
+
+```{r 
+<<label, fig.cap='Your Title Goes Here', tidy=TRUE>>=
+# Speaking of reproducibility, don't forget to set a seed so others can generate the SAME sequence!
+set.seed(602) 
+library(MASS) # to generate multi-var distribution
+e <-  as.numeric(mvrnorm(n = 100, mu = 0, Sigma = 1))
+plot(e)
+@
+```
+
+
+The function `tidy=TRUE` keeps your code within the page margins. See how the line *Speaking of reproducibility...* behaves.
+
+You can also write inline expressions, e.g. `pi` = **3.141592**. Here I printed the number `\pi` by calling the `\Sexpr{pi}` function. 
+
+Also, you can use information specified in your code such as the mean of **e** which is **-0.1682144**, which I computed calling the `mean` function inside the `Sexpr` expression, like so `\Sexpr{mean(e)}`.
+
+Editors and (**most**) readers are {**not**} interested in your coding. That's fine. The important thing is to make your code available to the audience that needs it. You can hide it by calling the `echo = FALSE` function in the preamble, i.e. within the `<<>>=` symbols. Below, you will only see the plot, not the coding that generated it.
+
+```{r 
+<<histogram, echo = FALSE, fig.cap='Your Title Goes Here'>>=
+hist(e)
+@
+```
+
+Finally, following the standard **LaTeX** tools, you can call the first figure using the `\autoref{fig:label}` function. Similarly, you can call the second one by typing the `\autoref{fig:histogram}` function.
+
+
+\end{document}
+
+
+
+
+
 
 ```tex
-
 \documentclass{article}
-\usepackage[T1]{fontenc}
-
+\usepackage{hyperref} % to generate figure and (sub)section hyperlinks within document.
 \begin{document}
 
-Now, here is an example of a `R` code chunk.
+Here is a code chunk.
+
+<<label, fig.cap='Your Title Goes Here', tidy=TRUE>>=
+# Speaking of reproducibility, don't forget to set a seed so others can generate the SAME sequence!
+set.seed(602) 
+library(MASS) # to generate multi-var distribution
+e <-  as.numeric(mvrnorm(n = 100, mu = 0, Sigma = 1))
+plot(e)
+@
+
+The function \texttt{tidy=TRUE} keeps your code within the page margins. See how the line \emph{Speaking of reproducibility...} behaves.
+
+You can also write inline expressions, e.g. $\pi=\Sexpr{pi}$. Here I printed the number $\pi$ by calling the \texttt{Sexpr} function. 
+
+Also, you can use information specified in your code such as the mean of {\bf e} which is {\bf -0.1682144}, which I computed calling the \texttt{mean} function inside the \texttt{Sexpr} expression.
+
+Editors and ({\bf most}) readers are {\bf not} interested in your coding. That's fine. The important thing is to make your code available to the audience that needs it. You can hide it by calling the \texttt{echo = FALSE} function in the preamble, i.e. within the \texttt{<<>>=} symbols. Below, you will only see the plot, not the coding that generated it.
+
+<<histogram, echo = FALSE, fig.cap='Your Title Goes Here'>>=
+hist(e)
+@
+
+Finally, following the standard {\bf LaTeX} tools, you can call the first figure using the \autoref{fig:label} function. Similarly, you can call the second one by typing the \texttt{\autoref{fig:histogram}} function.
+
 
 \end{document}
 
 ```
-
-
-```{r label}
-```
-
 
 
 
