@@ -130,8 +130,7 @@ install.packages(c("knitr"), repos = "http://cran.rstudio.com")
 
 Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw), the developer of **knitr**.
 
-
-	Example: Lets try an example. See the output below.
+Example: Lets try an example. See the output below.
 
 ---
 
