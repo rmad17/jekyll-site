@@ -110,7 +110,7 @@ In this section I will describe *my* take on literate programming: not the best,
 
 1. Text processor and necessary dependencies: First you will need a software to handle code and syntax highlighting. I use [Sublime Text 2](http://www.sublimetext.com/2). Have [Sublime Text 2](http://www.sublimetext.com/2) installed. 
 
-	1. Of course you can just R-Studio to compile all these.
+	* Of course you can just **R-Studio** to compile all these, of course, under the **Sweave** mode.
 
 2. Inside Sublime Text: 
 	1. Install [Package Control](https://packagecontrol.io/installation).
@@ -126,7 +126,7 @@ In this section I will describe *my* take on literate programming: not the best,
 
 5. Writing **R** and **LaTeX** code together:
 
-Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw), the developer of `knitr`.
+Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw), the developer of **knitr**.
 
 
 **WIP** below.
@@ -146,30 +146,7 @@ Now, here is an example of a `R` code chunk.
 
 
 ```{r label}
-# Speaking of reproducibility, don't forget to set a seed 
-# so others can generate the SAME sequence!
-set.seed(602) 
-library(MASS) # to generate multi-var distribution
-e <-  as.numeric(mvrnorm(n = 100, mu = 0, Sigma = 1))
-plot(e)
 ```
-
-You can also write inline expressions, e.g. $\pi=\Sexpr{pi}$, and \Sexpr{1.598673e8} is a big number.
-
-Also, you can use information specified in your code such as the mean of `e` which is $\Sexpr{mean(e)}$ (which I computed calling the mean function, like so $\Sexpr{mean(e)}$). 
-
-Editors and (most) readers are {\bf not} interested in our coding. So you can hide it by calling the `echo = FALSE` function in the preamble.
-
-```{r label , echo = FALSE}
-histogram(e)
-```
-
-Finally, following the standard `LaTeX` tools, you can call this of \autoref{fig:label} by calling the `\autoref{fig:label}` function.
-
-
-My intention is not show you everything, just to give you a hint how these stuff look like. Please to refer to the `knitr`, `LaTeX`, `R` and `Sublime Text` manuals for more details.
-
-
 
 
 
