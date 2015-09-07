@@ -4,6 +4,8 @@
 permalink:           pretty
 relative_permalinks: true
 
+markdown: kramdown
+
 # Setup
 title:               Hector Bahamonde
 tagline:             'Political Science Dpt., Rutgers University'
