@@ -56,7 +56,7 @@ In this section, I borrow from a [post](http://stackoverflow.com/questions/10987
 `markdown: kramdown`
 
 ###### Usage
-
+Now, instead of the `$` signs you just use `\( ... \)`, like so `\( e^10 \)` which produces \( e^10 \). That's for inline math. For equations use ``$$ ... $$`. For more details, see the official info [here](http://docs.mathjax.org/en/latest/tex.html#supported-latex-commands).
 
 
 
