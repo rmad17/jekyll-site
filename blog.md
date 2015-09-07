@@ -152,7 +152,7 @@ plot(e)
 
 The function `tidy=TRUE` keeps your code within the page margins. See how the line *Speaking of reproducibility...* behaves.
 
-You can also write inline expressions, e.g. \(pi\) = **3.141592**. Here I printed the number \(\pi\) by calling the `\Sexpr{pi}` function. 
+You can also write inline expressions, e.g. \(\pi\) = **3.141592**. Here I printed the number \(\pi\) by calling the `\Sexpr{pi}` function. 
 
 Also, you can use information specified in your code such as the mean of \(\e\) which is **-0.1682144**, which I computed calling the `mean` function inside the `Sexpr` expression, like so `\Sexpr{mean(e)}`.
 
@@ -165,7 +165,7 @@ hist(e)
 ```
 <img src="/resources/histogram-1.pdf" alt="Example Plot 2" style="width:350px;height:350px;">
 
-Finally, following the standard **LaTeX** tools, you can call the first figure using the `\autoref{fig:label}` function. Similarly, you can call the second one by typing the `\autoref{fig:histogram}` function.
+Finally, following the standard $latex tools, you can call the first figure using the `\autoref{fig:label}` function. Similarly, you can call the second one by typing the `\autoref{fig:histogram}` function.
 
 
 ---
@@ -199,7 +199,7 @@ Editors and ({\bf most}) readers are {\bf not} interested in your coding. That's
 hist(e)
 @
 
-Finally, following the standard {\bf LaTeX} tools, you can call the first figure using the \autoref{fig:label} function. Similarly, you can call the second one by typing the \texttt{\autoref{fig:histogram}} function.
+Finally, following the standard  \LaTeX tools, you can call the first figure using the \autoref{fig:label} function. Similarly, you can call the second one by typing the \texttt{\autoref{fig:histogram}} function.
 
 \end{document}
 ```
