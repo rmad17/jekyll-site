@@ -17,7 +17,11 @@ This website is proudly open sourced under the [MIT license](https://github.com/
 Mac users: open command line and enter the following lines, separately.
 
 1. Install Homebrew: 
-`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 2. Install Ruby: `brew install ruby`
 3. Install Ruby Gems: `gem update —system`
 4. Install Jekyll: `gem install jekyll`
@@ -56,7 +60,7 @@ In this section, I borrow from a [post](http://stackoverflow.com/questions/10987
 `markdown: kramdown`
 
 ###### Usage
-Now, instead of the `$` signs you just use `\( ... \)`, like so `\( e^10 \)` which produces \( e^10 \). That's for inline math. For equations use ``$$ ... $$`. For more details, see the official info [here](http://docs.mathjax.org/en/latest/tex.html#supported-latex-commands).
+Now, instead of the `$` signs you just use `\( ... \)`, like so `\( e^10 \)` which produces $$e^10$$. That's for inline math. For equations use ``$$ ... $$`. For more details, see the official info [here](http://docs.mathjax.org/en/latest/tex.html#supported-latex-commands).
 
 
 
