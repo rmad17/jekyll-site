@@ -181,6 +181,9 @@ e <-  as.numeric(mvrnorm(n = 100, mu = 0, Sigma = 1))
 plot(e)
 @
 
+<img src="/resources/label-1.pdf" alt="Example Plot 1" style="width:350px;height:225px;">
+
+
 The function \texttt{tidy=TRUE} keeps your code within the page margins. See how the line \emph{Speaking of reproducibility...} behaves.
 
 You can also write inline expressions, e.g. $\pi=\Sexpr{pi}$. Here I printed the number $\pi$ by calling the \texttt{Sexpr} function. 
@@ -192,6 +195,9 @@ Editors and ({\bf most}) readers are {\bf not} interested in your coding. That's
 <<histogram, echo = FALSE, fig.cap='Your Title Goes Here'>>=
 hist(e)
 @
+
+<img src="/resources/histogram-1.pdf" alt="Example Plot 2" style="width:350px;height:225px;">
+
 
 Finally, following the standard {\bf LaTeX} tools, you can call the first figure using the \autoref{fig:label} function. Similarly, you can call the second one by typing the \texttt{\autoref{fig:histogram}} function.
 
