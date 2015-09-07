@@ -168,7 +168,7 @@ Finally, following the standard  **LaTeX** tools, you can call the first figure 
 
 ---
 
-Here below is the LaTeX code. Copy and paste into a `.rnw` file.
+Here below is the LaTeX code. Copy and paste it into a `.rnw` file.
 
 ```tex
 \documentclass{article}
