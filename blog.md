@@ -25,10 +25,10 @@ Rutgers requires a very specific formatting [style](http://gsnb.rutgers.edu/acad
 
 Now follow the next steps:
 
-0. I would assume you have LaTeX up and running.
-1. Download the style file [here](/resources/ruthesis.cls).
-2. Put the style file into your dissertation root folder.
-3. Write your dissertation: I have also outsourced an example from the [math folks](http://www.math.rutgers.edu/grad/phd_requirements/thesis.html), where I did some modifications. See the LaTeX code below.
+* I would assume you have LaTeX up and running.
+* Download the style file [here](/resources/ruthesis.cls).
+* Put the style file into your dissertation root folder.
+* Write your dissertation: I have also outsourced an example from the [math folks](http://www.math.rutgers.edu/grad/phd_requirements/thesis.html), where I did some modifications. See the LaTeX code below.
 
 ```tex
 
@@ -114,8 +114,8 @@ In this section I will describe *my* take on literate programming: not the best,
 * Inside Sublime Text: 
 	* Install [Package Control](https://packagecontrol.io/installation).
 	* `shift+cmd+p`, then **Install Packages**, and install:
-		* [R-Box](https://github.com/randy3k/R-Box)
-		* [Sublime Knitr](https://github.com/andrewheiss/SublimeKnitr)
+		* [R-Box](https://github.com/randy3k/R-Box).
+		* [Sublime Knitr](https://github.com/andrewheiss/SublimeKnitr).
 		* [LaTexing](http://www.latexing.com/installation.html) or [LaTeX Tools](https://github.com/SublimeText/LaTeXTools).
 
 * *If you're using LaTeX Tools*, follow the instructions to patch it [here](https://github.com/andrewheiss/SublimeKnitr#manual-patch-for-latextools) - that's right, patch the 6 files!
