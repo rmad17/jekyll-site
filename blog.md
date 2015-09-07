@@ -152,7 +152,7 @@ plot(e)
 
 The function `tidy=TRUE` keeps your code within the page margins. See how the line *Speaking of reproducibility...* behaves.
 
-You can also write inline expressions, e.g. `pi` = **3.141592**. Here I printed the number `\pi` by calling the `\Sexpr{pi}` function. 
+You can also write inline expressions, e.g. $$pi$$ = **3.141592**. Here I printed the number `\pi` by calling the `\Sexpr{pi}` function. 
 
 Also, you can use information specified in your code such as the mean of **e** which is **-0.1682144**, which I computed calling the `mean` function inside the `Sexpr` expression, like so `\Sexpr{mean(e)}`.
 
