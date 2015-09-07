@@ -168,6 +168,8 @@ Finally, following the standard  **LaTeX** tools, you can call the first figure 
 
 ---
 
+Here below is the LaTeX code. Copy and paste into a `.rnw` file.
+
 ```tex
 \documentclass{article}
 \usepackage{hyperref} % to generate figure and (sub)section hyperlinks within document.
