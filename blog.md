@@ -3,6 +3,10 @@ layout: page
 title: Blog
 ---
 
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 
 <p class="lead">
 In this section, I will be posting useful stuff that I have found to be helpful in grad school, mostly regarding computing applications.
