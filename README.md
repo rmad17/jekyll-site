@@ -27,6 +27,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 4. Install Jekyll: `gem install jekyll`
 
 Then, open your browser and,
+
 5. [Install](https://nodejs.org) `NODE JS`.
 
 Finally, download the fonts:
@@ -42,9 +43,7 @@ If you want to include math symbols using **LaTeX** in your webiste, you will ne
 
 In this section, I borrow from a [post](http://stackoverflow.com/questions/10987992/using-mathjax-with-jekyll) in Stackoverflow, which some modification by myself.
 
-1. Install **kramdown** which will render your math symbols within the Markdown framework.
-
-`gem install kramdown`
+1. Install **kramdown** which will render your math symbols within the Markdown framework: `gem install kramdown`
 
 2. I recommend calling the latest MathJax version from your website instead of downloading the file. Put the code below in the `head` section of `head.html` document. It will open a **secure** connection and download/render (?) your math from MathJax directly.
 
@@ -55,9 +54,7 @@ In this section, I borrow from a [post](http://stackoverflow.com/questions/10987
 </script>
 ```
 
-3. Introduce the next line in your `_config.yml` file:
-
-`markdown: kramdown`
+3. Introduce the next line in your `_config.yml` file: `markdown: kramdown`
 
 ###### Usage
 Now, instead of the `$` signs you just use `\( ... \)`, like so `\( e^10 \)` which produces $$e^10$$. That's for inline math. For equations use ``$$ ... $$`. For more details, see the official info [here](http://docs.mathjax.org/en/latest/tex.html#supported-latex-commands).
