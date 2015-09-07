@@ -16,7 +16,8 @@ This website is proudly open sourced under the [MIT license](https://github.com/
 
 Mac users: open command line and enter the following lines, separately.
 
-1. Install Homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+1. Install Homebrew: 
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 2. Install Ruby: `brew install ruby`
 3. Install Ruby Gems: `gem update —system`
 4. Install Jekyll: `gem install jekyll`
@@ -35,14 +36,19 @@ If you want to include math symbols using **LaTeX** in your webiste, you will ne
 
 ##### Installation
 
-1. I recommend calling the latest MathJax version from your website instead of downloading the file. Put the code below 
+In this section, I borrow from a [post](http://stackoverflow.com/questions/10987992/using-mathjax-with-jekyll) in Stackoverflow, which some modification by myself.
+
+1. I recommend calling the latest MathJax version from your website instead of downloading the file. Put the code below in the `head` section of `head.html` document. It will open a **secure** connection and download/render (?) your math from MathJax directly.
 
 ```html
+<!-- MathJax Installation-->
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 ```
 
+2. Change the markdown line in `_config.yml` to
+`markdown: kramdown`
 
 
 
