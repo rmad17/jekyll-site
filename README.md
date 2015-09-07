@@ -65,7 +65,7 @@ markdown: kramdown
 ```
 
 ###### Usage
-Now, instead of the `$` signs you just use `\( ... \)`, like so `\( e^10 \)` which produces \( \epsilon^10 \). That's for inline math. For equations use ``$$ ... $$``. For more details, see the official info [here](http://docs.mathjax.org/en/latest/tex.html#supported-latex-commands).
+Now, instead of the `$` signs you just use `\( ... \)`, like so `\( \x^2 \)` which produces \( \x^2 \). That's for inline math. For equations use ``$$ ... $$``. For more details, see the official info [here](http://docs.mathjax.org/en/latest/tex.html#supported-latex-commands).
 
 
 
