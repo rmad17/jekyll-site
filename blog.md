@@ -121,7 +121,10 @@ In this section I will describe *my* take on literate programming: not the best,
 3. *If you're using LaTeX Tools*, follow the instructions to patch it [here](https://github.com/andrewheiss/SublimeKnitr#manual-patch-for-latextools) - that's right, patch the 6 files!
 
 4. In **R** you have to install **knitr**: 
-`install.packages(c("knitr"), repos = "http://cran.rstudio.com")`
+
+```r
+install.packages(c("knitr"), repos = "http://cran.rstudio.com")
+```
 
 5. Writing **R** and **LaTeX** code together:
 
@@ -165,8 +168,6 @@ Finally, following the standard  \(\LaTeX\) tools, you can call the first figure
 
 
 ---
-
-And here is the code.
 
 ```tex
 \documentclass{article}
