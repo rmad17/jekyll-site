@@ -16,24 +16,24 @@ This website is proudly open sourced under the [MIT license](https://github.com/
 
 Mac users: open **command line** and enter the following lines, separately.
 
-1. Install **[Homebrew](http://brew.sh)**: 
+* Install **[Homebrew](http://brew.sh)**: 
 
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-2. Install Ruby: `brew install ruby`
-3. Install Ruby Gems: `gem update —system`
-4. Install Jekyll: `gem install jekyll`
+* Install Ruby: `brew install ruby`
+* Install Ruby Gems: `gem update —system`
+* Install Jekyll: `gem install jekyll`
 
-Then, open your browser and,
+* Then, open your browser and,
 
-5. [Install](https://nodejs.org) **NODE JS**.
+	* [Install](https://nodejs.org) **NODE JS**.
 
-Finally, download the fonts:
+* Finally, download the fonts:
 
-6. [Source Pro Code](https://www.google.com/fonts/download?kit=5CnRSlG29fo96WRM6evqx3XmVIqD4Rma_X5NukQ7EX0).
-7. [Lato](https://www.google.com/fonts/download?kit=NdjKCQMCiQM2g3qf94rrwQ).
+	* [Source Pro Code](https://www.google.com/fonts/download?kit=5CnRSlG29fo96WRM6evqx3XmVIqD4Rma_X5NukQ7EX0).
+	* [Lato](https://www.google.com/fonts/download?kit=NdjKCQMCiQM2g3qf94rrwQ).
 
 #### MathJax
 
@@ -43,13 +43,13 @@ If you want to include math symbols from **LaTeX** symbols library, *within* Mar
 
 In this section, I borrow from a [post](http://stackoverflow.com/questions/10987992/using-mathjax-with-jekyll) in Stackoverflow, which some modifications by myself.
 
-1. Install **kramdown** which will render your math symbols within the Markdown framework: 
+* Install **kramdown** which will render your math symbols within the Markdown framework: 
 
 ```
 gem install kramdown
 ```
 
-2. I recommend calling the latest MathJax version from your website instead of downloading the file. Put the code below in the `head` section of `head.html` document. It will open a **secure** connection and render your math from MathJax directly.
+* I recommend calling the latest MathJax version from your website instead of downloading the file. Put the code below in the `head` section of `head.html` document. It will open a **secure** connection and render your math from MathJax directly.
 
 ```html
 <!-- MathJax Installation-->
@@ -58,7 +58,7 @@ gem install kramdown
 </script>
 ```
 
-Then, introduce the next line in your `_config.yml` file: 
+* Then, introduce the next line in your `_config.yml` file: 
 
 ```
 markdown: kramdown
