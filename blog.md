@@ -109,7 +109,7 @@ In this section I will describe *my* take on literate programming: not the best,
 
 1. Text processor and necessary dependencies: First you will need a software to handle code and syntax highlighting. I use [Sublime Text 2](http://www.sublimetext.com/2). Have [Sublime Text 2](http://www.sublimetext.com/2) installed. 
 
-	* Of course you can just **R-Studio** to compile all these, of course, under the **knitr** mode: **Preferences --> Sweave --> Weave Rnw files using --> knitr**.
+	Of course you can just **R-Studio** to compile all these, of course, under the **knitr** mode: **Preferences --> Sweave --> Weave Rnw files using --> knitr**.
 
 2. Inside Sublime Text: 
 	1. Install [Package Control](https://packagecontrol.io/installation).
