@@ -128,7 +128,7 @@ In this section I will describe *my* take on literate programming: not the best,
 Create a `.rnw` file. Here is a small example I modified from [Yihui Xie](https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw), the developer of **knitr**.
 
 
-6. Example: Lets try an example. See the output below.
+	Example: Lets try an example. See the output below.
 
 ---
 
