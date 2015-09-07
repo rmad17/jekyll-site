@@ -163,7 +163,7 @@ hist(e)
 ```
 <img src="/resources/histogram-1.pdf" alt="Example Plot 2" style="width:350px;height:350px;">
 
-Finally, following the standard  \( \LaTeX \) tools, you can call the first figure using the `\autoref{fig:label}` function. Similarly, you can call the second one by typing the `\autoref{fig:histogram}` function.
+Finally, following the standard  $$\LaTeX$$ tools, you can call the first figure using the `\autoref{fig:label}` function. Similarly, you can call the second one by typing the `\autoref{fig:histogram}` function.
 
 
 ---
