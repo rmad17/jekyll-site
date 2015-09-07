@@ -29,5 +29,24 @@ Finally, download the fonts:
 6. [Source Pro Code](https://www.google.com/fonts/download?kit=5CnRSlG29fo96WRM6evqx3XmVIqD4Rma_X5NukQ7EX0).
 7. [Lato](https://www.google.com/fonts/download?kit=NdjKCQMCiQM2g3qf94rrwQ).
 
+#### MathJax
+
+If you want to include math symbols using **LaTeX** in your webiste, you will need **MathJax**.
+
+##### Installation
+
+1. I recommend calling the latest MathJax version from your website instead of downloading the file. Put the code below 
+
+```html
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+```
+
+
+
+
+
+
 
 
