@@ -22,5 +22,8 @@ author:
   url:               http://www.hectorbahamonde.com
   email:             hector.bahamonde@rutgers.edu
 
+# MathJax
+markdown: kramdown
+
 # Custom vars
 version:             1.0.0

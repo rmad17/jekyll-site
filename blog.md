@@ -149,9 +149,9 @@ The function `tidy=TRUE` keeps your code within the page margins. See how the li
 
 You can also write inline expressions, e.g. \(\pi\) = **3.141592**. Here I printed the number \(\pi\) by calling the `\Sexpr{pi}` function. 
 
-Also, you can use information specified in your code such as the mean of \(\e\) which is **-0.1682144**, which I computed calling the `mean` function inside the `Sexpr` expression, like so `\Sexpr{mean(e)}`.
+Also, you can use information specified in your code such as the mean of \\(\e\\) which is **-0.1682144**, which I computed calling the `mean` function inside the `Sexpr` expression, like so `\Sexpr{mean(e)}`.
 
-Editors and (**most**) readers are {**not**} interested in your coding. That's fine. The important thing is to make your code available to the audience that needs it. You can hide it by calling the `echo = FALSE` function in the preamble, i.e. within the `<<>>=` symbols. Below, you will only see the plot, not the coding that generated it.
+Editors and (**most**) readers are **not** interested in your coding. That's fine. The important thing is to make your code available to the audience that needs it. You can hide it by calling the `echo = FALSE` function in the preamble, i.e. within the `<<>>=` symbols. Below, you will only see the plot, not the coding that generated it.
 
 ```r 
 <<histogram, echo = FALSE, fig.cap='Your Title Goes Here'>>=
