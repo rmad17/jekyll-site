@@ -34,7 +34,12 @@ As an undergraduate student, it is your right to ask for a grade appeal. At the 
 ---
 
 ## Recommendation Letters
-I am more than happy to write a recommendation letter for you. However, please make sure that I know well the quality of your work as an undergraduate student. Please send me an email with (1) your latest CV, (2) a description of the internship/fellowship you are applying for and (3) a reasonable deadline.
+I am more than happy to write a recommendation letter for you. However, please make sure that I know well the quality of your work as an undergraduate student. Please send me an email with: 
+
+* Your latest CV.
+* A description of the internship/fellowship you are applying for.
+* All your application materials.
+* A reasonable deadline.
 
 <div>
     <a href="mailto:hector.bahamonde@rutgers.edu"><i class="fa fa-envelope fa-2x" style="color:#d21034"></i></a>
