@@ -16,7 +16,7 @@ I believe **everything** should be replicable and open source. When available, a
 
 <img src="/resources/libcon_prop.pdf" alt="" style="width:600px;height:300px;">
 
-<a href="http://www.hectorbahamonde.com/research/"><i class="fa fa-download"></i> <a href="http://www.hectorbahamonde.com/research/"><i class='fa fa-github-square'></i></a>
+<a href="http://www.hectorbahamonde.com/research/"><i class="fa fa-download fa-lg"></i> <a href="http://www.hectorbahamonde.com/research/"><i class='fa fa-github-square fa-lg'></i></a>
 
 
 <p class="message">
@@ -30,7 +30,7 @@ I believe **everything** should be replicable and open source. When available, a
 
 <img src="/resources/effects_density.pdf" alt="" style="width:400px;height:400px;">
 
-<a href="http://www.hectorbahamonde.com/research/"><i class="fa fa-download"></i> <a href="http://www.hectorbahamonde.com/research/"><i class='fa fa-github-square'></i></a>
+<a href="http://www.hectorbahamonde.com/research/"><i class="fa fa-download fa-lg"></i> <a href="http://www.hectorbahamonde.com/research/"><i class='fa fa-github-square fa-lg'></i></a>
 
 
 <p class="message">
