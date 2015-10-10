@@ -236,7 +236,7 @@ This is my personal take on how Sublime Text 3 looks better for longer hours of 
 
 Building on [this](http://webdesign.tutsplus.com/articles/simple-visual-enhancements-for-better-coding-in-sublime-text--webdesign-18052) blog post, I changed the default visuals for the following ones:
 
-* Go to Sublime Text > Preferences > Settings - User, then paste,
+* Go to `Sublime Text > Preferences > Settings - User`, then paste,
 
 ```tex
 {
