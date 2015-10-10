@@ -14,6 +14,7 @@ In this section, I will be posting useful stuff that I have found to be helpful 
 
 - [Rutgers PhD Dissertation Format in LaTeX](#latexrutgers)
 - [Write replicable papers using the R package "Knitr"](#knitr)
+- [Visual Improvements for Sublime Text 3][#sublimevisual]
 
 ---
 
@@ -107,9 +108,9 @@ As [some](http://kbroman.org/knitr_knutshell/) have explained it, "KnitR is a re
 
 In this section I will describe *my* take on literate programming: not the best, not the only one. Just the one I use.
 
-* Text processor and necessary dependencies: First you will need a software to handle code and syntax highlighting. I use [Sublime Text 2](http://www.sublimetext.com/2). Have Sublime Text 2 [installed](http://www.sublimetext.com/2). 
+* Text processor and necessary dependencies: First you will need a software to handle code and syntax highlighting. I use [Sublime Text 3](http://www.sublimetext.com/3). Have Sublime Text 3 [installed](http://www.sublimetext.com/3). 
 
-	Of course you can just use **R-Studio** to compile all these, of course, under the **knitr** mode: **Preferences --> Sweave --> Weave Rnw files using --> knitr**.
+	Of course you can just use **R-Studio** to compile all these, of course, under the **knitr** mode: `Preferences -> Sweave -> Weave Rnw files using -> knitr`.
 
 * Inside Sublime Text: 
 	* Install [Package Control](https://packagecontrol.io/installation).
@@ -120,11 +121,17 @@ In this section I will describe *my* take on literate programming: not the best,
 
 * *If you're using LaTeX Tools*, follow the instructions to patch it [here](https://github.com/andrewheiss/SublimeKnitr#manual-patch-for-latextools) - that's right, patch the 6 files!
 
-* In **R** you have to install **knitr**: 
+	* In **R** you have to install **knitr**: 
 
-```r
-install.packages(c("knitr"), repos = "http://cran.rstudio.com")
-```
+	```r
+	install.packages(c("knitr"), repos = "http://cran.rstudio.com")
+	```
+
+	* Modify **user** settings in LaTeXing
+
+	```tex
+	{"knitr": true}
+	```
 
 * Writing **R** and **LaTeX** code together:
 
@@ -202,7 +209,54 @@ Finally, following the standard  \LaTeX tools, you can call the first figure usi
 \end{document}
 ```
 
+<div id='sublimevisual'/>
+## Visual Improvements for Sublime Text 3
 
+This is my personal take on how Sublime Text 3 looks better for longer hours of work and happier coding. I also describe the packages that I use.
+
+### Packages
+* [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter):
+	- This one matches a variety of brackets. It makes your coding easier.
+* [Markdown HTML Preview](https://github.com/zeyon/MarkdownHtmlPreview): 
+	- This plugin allows you to automatically inject your markdown document into an HTML page. I use it to preview my `.md` files before uploading them to my GitHub account. While in Sublime Text writing your `.md` file, use `Control + Shift + M` to preview.
+* [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3):
+	- Code linting in ST3. 
+* [Insert Nums](https://github.com/jbrooksuk/InsertNums):
+	- It inserts (consecutive) numbers across multiple selections or modifies the selections' contents with expressions. Basic usage in OSX: `Command + Alt + N`. 
+* [Sublime LaTeX Word Count](https://github.com/lionandoil/SublimeLaTeXWordCount):
+	-  Basic usage in OSX: `Control + Shift + C`.
+* [LaTeX Tools](https://github.com/SublimeText/LaTeXTools):
+	- This plugin provides several features that simplify working with LaTeX files.
+* [R-Box](https://github.com/randy3k/R-Box):
+	- Send commands to various programs. I use it for **R**.
+* [(Sublime) Knitr](https://github.com/andrewheiss/SublimeKnitr):
+	- It provides **knitr** Markdown and LaTeX support in Sublime Text 2 and 3. 
+
+### Visual Enhacements
+
+Building on [this](http://webdesign.tutsplus.com/articles/simple-visual-enhancements-for-better-coding-in-sublime-text--webdesign-18052) blog post, I changed the default visuals for the following ones:
+
+* Go to Sublime Text > Preferences > Settings - User, then paste,
+
+```tex
+{
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/SublimeLinter/iPlastic (SL).tmTheme",
+	"fade_fold_buttons": false,
+	"font_face": "Monaco",
+	"font_size": 17,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"word_wrap": true
+}
+```
 
 
 
