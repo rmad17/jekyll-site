@@ -14,7 +14,7 @@ In this section, I will be posting useful stuff that I have found to be helpful 
 
 - [Rutgers PhD Dissertation Format in LaTeX](#latexrutgers)
 - [Write replicable papers using the R package "Knitr"](#knitr)
-- [Visual Improvements for Sublime Text 3][#sublimevisual]
+- [Visual Improvements for Sublime Text 3](#sublimevisual)
 
 ---
 
