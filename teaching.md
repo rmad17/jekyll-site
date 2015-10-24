@@ -28,7 +28,7 @@ To consider these kind of statements in a rigorous way, we will introduce OLS, t
 ---
 
 
-## 2. <a href="http://www.hectorbahamonde.com/americangovernment">American Government</a>
+## 2. <a href="http://hbahamonde.github.io/americangovernment">American Government</a>
 ### TA (Prof. [Ross Baker](http://polisci.rutgers.edu/cb-profile/userprofile/bakerross))
 
 <img src="/resources/usmap.jpg" alt="" style="width:600px;height:400px;">
