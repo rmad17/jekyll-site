@@ -28,7 +28,7 @@ I believe **everything** should be replicable and open source. When available, a
 
 ### 2. Clientelism
 
-<img src="/resources/effects_density.pdf" alt="" style="width:400px;height:400px;">
+<img src="/resources/effects_density.pdf" alt="" style="width:600px;height:300px;">
 
 <a href="http://www.hectorbahamonde.com/research/"><i class="fa fa-download fa-lg"></i> <a href="http://www.hectorbahamonde.com/research/"><i class='fa fa-github-square fa-lg'></i></a>
 
