@@ -217,6 +217,8 @@ Finally, following the standard  \LaTeX tools, you can call the first figure usi
 \end{document}
 ```
 
+---
+
 <div id='sublimevisual'/>
 ## Visual Improvements for Sublime Text 3
 
