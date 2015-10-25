@@ -127,10 +127,18 @@ In this section I will describe *my* take on literate programming: not the best,
 	install.packages(c("knitr"), repos = "http://cran.rstudio.com")
 	```
 
-	* Modify **user** settings in LaTeXing
+	* Modify **user** settings in LaTeXing. First line adds *knitr* capabilities, while the second line allows *BibTeX* compilation.
 
 	```tex
-	{"knitr": true}
+	{"knitr": true,
+	"quick_build": [
+        {
+            "name": "Primary Quick Build: latexmk",
+            "primary": true,
+            "cmds": ["latexmk"]
+        }
+					]
+	}
 	```
 
 * Writing **R** and **LaTeX** code together:
