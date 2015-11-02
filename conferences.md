@@ -12,6 +12,7 @@ mapping:
         -   title: Bar location
             latitude: -13
             longitude: -3
+published: true
 
 ---
 
