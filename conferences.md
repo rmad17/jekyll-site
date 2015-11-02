@@ -23,6 +23,10 @@ I have presented at...
 
 ---
 
+
+{% render_map 500,500 %}
+
+
 ### 1. Latin American Studies Association LASA 
 
 #### San Juan, Puerto Rico: 2015. 
