@@ -27,6 +27,3 @@ author:
 # Custom vars
 version:             1.0.0
 
-# Maps (test)
-mapping:
-    provider: google_static

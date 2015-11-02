@@ -2,18 +2,6 @@
 layout: page
 title: Conferences
 
-mapping:
-    latitude: -14
-    longitude: 32
-    locations:
-        -   title: Foo location
-            latitude: 15
-            longitude: 10
-        -   title: Bar location
-            latitude: -13
-            longitude: -3
-published: true
-
 ---
 
 
@@ -22,9 +10,6 @@ I have presented at...
 </p>
 
 ---
-
-
-{% render_map 500,500 %}
 
 
 ### 1. Latin American Studies Association LASA 
