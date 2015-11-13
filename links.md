@@ -10,6 +10,7 @@ title: Links
 ### Political Economy, Economic History and Development Economics
 
 - [Journal of Political Economy](http://www.press.uchicago.edu/ucp/journals/journal/jpe.html)
+- [New Political Economy](http://www.tandfonline.com/toc/cnpe20/current)
 - [Journal of Public Economics](http://www.journals.elsevier.com/journal-of-public-economics/)
 - [Journal of Economic Growth](http://link.springer.com/journal/10887)
 - [Review of Income and Wealth](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1475-4991)
@@ -29,6 +30,7 @@ title: Links
 - [Comparative Politics](http://jcpgc.ws.gc.cuny.edu/)
 - [Journal of Democracy](http://www.journalofdemocracy.org/articles/tables-contents)
 - [Latin American Research Review](http://lasa.international.pitt.edu/eng/LARR/index.asp)
+- [Third World Quarterly](http://www.tandfonline.com/toc/ctwq20/current)
 - [Journal of Latin American Studies](http://journals.cambridge.org/action/displayJournal?jid=LAS)
 - [Journal of Politics in Latin America](http://journals.sub.uni-hamburg.de/giga/jpla)
 

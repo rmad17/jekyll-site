@@ -12,36 +12,25 @@ I have presented at...
 ---
 
 
-### 1. Latin American Studies Association LASA 
+### 1. Latin American Studies Association (LASA) 
 
-#### San Juan, Puerto Rico: 2015. 
+- San Juan, Puerto Rico: 2015. Panel: Poverty and Political Participation.
 
-##### Panel: Poverty and Political Participation.
-
-
-### 2. Western Political Science Association WPSA 
-
-#### Las Vegas, Nevada: 2015. 
-
-##### Panel: Latin American Politics.
+- Chicago, Illinois: 2014. Panel: Clientelism and Corruption.
 
 
-### 3. Southern Political Science Association SPSA 
+### 2. Western Political Science Association (WPSA) 
 
-#### New Orleans, Louisiana: 2015. 
+- San Diego, California: 2016. Panel: Accepted.
 
-##### Panel: Issues in Electoral Politics.
-
-
-### 4. Latin American Studies Association LASA 
-
-#### Chicago, Illinois: 2014. 
-
-##### Panel: Clientelism and Corruption.
+- Las Vegas, Nevada: 2015. Panel: Latin American Politics.
 
 
-### 5. IX Congreso Chileno de Ciencia Política ACCP  
+### 3. Southern Political Science Association (SPSA) 
 
-#### Santiago, Chile: 2010. 
+- New Orleans, Louisiana: 2015. Panel: Issues in Electoral Politics.
 
-##### Panel: Vínculos Partido-votante (coauthor).
+
+### 4. IX Congreso Chileno de Ciencia Política (ACCP)  
+
+- Santiago, Chile: 2010. Panel: Vínculos Partido-votante (coauthor).

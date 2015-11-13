@@ -13,7 +13,7 @@ In this section you will find information on the different courses I have been i
 
 ## 1. <span style="color:#4E9258">Quantitative Analysis for Political Scientists</span>
 
-### Instructor
+### Instructor (soon)
 
 <img src="/resources/plot1.pdf" alt="" style="width:400px;height:400px;">
 

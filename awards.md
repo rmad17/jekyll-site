@@ -19,6 +19,9 @@ This fund of $ 300 helped to buy several really important books for one of my pr
 #### - <span style="color:#4E9258">Teaching Assistant Professional Development Fund (2015)</span>
 I have several experiments designed to measure vote-buying and vote-selling. With this award of $ 2,083 I will be able to fund several of them. <span style="color:#A9A9A9">School of Arts and Sciences, Rutgers University</span>.
 
+#### - <span style="color:#4E9258">Center for the Experimental Study of Politics and Psychology, CESPP Rutgers (2015)</span>
+This award will allow me to field a survey experiment regarding vote-buying in the United States. Particularly, I am interested in exploring vote-price elasticities and the types of "broken" democratic values that might explain intention to sell at the individual level. This project builds on the American political development, political economy and experimental research agendas.
+
 ---
 
 
