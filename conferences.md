@@ -14,6 +14,8 @@ I have presented at...
 
 ### 1. Latin American Studies Association (LASA) 
 
+- New York City, New York: 2016. Panel: States, Institutions, and Market Forces.
+
 - San Juan, Puerto Rico: 2015. Panel: Poverty and Political Participation.
 
 - Chicago, Illinois: 2014. Panel: Clientelism and Corruption.
@@ -21,7 +23,7 @@ I have presented at...
 
 ### 2. Western Political Science Association (WPSA) 
 
-- San Diego, California: 2016. Panel: Accepted.
+- San Diego, California: 2016. Panel: Politics of Inequality.
 
 - Las Vegas, Nevada: 2015. Panel: Latin American Politics.
 
