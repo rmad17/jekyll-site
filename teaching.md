@@ -11,16 +11,15 @@ In this section you will find information on the different courses I have been i
 ---
 
 
-## 1. <span style="color:#4E9258">Quantitative Analysis for Political Scientists</span>
-
-### Instructor (soon)
+## 1. <span style="color:#4E9258">Introduction to Quantitative Methods</span>
+### TA (Graduate), Prof. [Beth Leech](http://fas-polisci.rutgers.edu/leech/index.html)
+#### F:2015
 
 <img src="/resources/plot1.pdf" alt="" style="width:400px;height:400px;">
 
 
-What is the influence of income on the probability of voting? Is there any systematic relationship between democracy and growth? Is it true that correlation does not imply causation? 
+Statistics are important to the study of political science in many ways. This class is thus an essential part of graduate education, and not only for those of who will go on to conduct quantitative research. The practical graduate student who would prefer not to starve realizes that the best dissertations – and job talks – involve multiple methods, one of which is often quantitative.  No matter what type of research one expects to conduct, one know that without a basic understanding of the language and logic of probability and statistics it is difficult to comprehend even the simplest article in virtually any mainstream political science journal.  As a side benefit, knowledge of statistics will make you a better-informed consumer of the myriad news stories that report the results of surveys and scientific studies from other disciplines.
 
-To consider these kind of statements in a rigorous way, we will introduce OLS, the workhorse of applied quantitative methodology in social sciences. At the end of the course you will become an educated consumer and producer of quantitative analysis.
 
 <a href="http://www.hectorbahamonde.com/teaching/"><i class="fa fa-book"></i></a>
 
@@ -29,7 +28,8 @@ To consider these kind of statements in a rigorous way, we will introduce OLS, t
 
 
 ## 2. <a href="http://hbahamonde.github.io/americangovernment">American Government</a>
-### TA (Prof. [Ross Baker](http://polisci.rutgers.edu/cb-profile/userprofile/bakerross))
+### TA (undergraduate), Prof. [Ross Baker](http://polisci.rutgers.edu/cb-profile/userprofile/bakerross)
+#### F:2014, S:2015, F:2015, S:2016.
 
 <img src="/resources/usmap.jpg" alt="" style="width:600px;height:400px;">
 
@@ -44,8 +44,8 @@ This survey course covers the major components of U.S. national government. Begi
 
 
 ## 3. <span style="color:#4E9258">Math Camp for Political Scientists</span>
-
-### Instructor
+### Instructor (Graduate)
+#### W:2015
 
 <img src="/resources/plot2.pdf" alt="" style="width:800px;height:400px;">
 

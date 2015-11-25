@@ -44,7 +44,6 @@ Besides working on my research, I love teaching. Rutgers University has generous
 ## Travel
 
 #### - <span style="color:#4E9258">Conference Travel Support ($ 250)</span>
-- School of Arts and Sciences (2013)
-- Political Science Dpt. (2014)
-- School of Arts and Sciences (2015)-twice.
+- School of Arts and Sciences (2013, 2015).
+- Political Science Dpt. (2014, 2015)
 
