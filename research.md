@@ -20,7 +20,7 @@ I believe **everything** should be replicable and open source. When available, a
 
 
 <p class="message">
-  Work in Progress.
+  Designing experiment.
 </p>
 
 ---

@@ -28,7 +28,7 @@ Statistics are important to the study of political science in many ways. This cl
 
 
 ## 2. <a href="http://hbahamonde.github.io/americangovernment">American Government</a>
-### TA (undergraduate), Prof. [Ross Baker](http://polisci.rutgers.edu/cb-profile/userprofile/bakerross)
+### TA (undergraduate)
 #### F:2014, S:2015, F:2015, S:2016.
 
 <img src="/resources/usmap.jpg" alt="" style="width:600px;height:400px;">

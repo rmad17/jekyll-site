@@ -14,7 +14,7 @@ In this section, I will be posting useful stuff that I have found to be helpful 
 
 - [Rutgers PhD Dissertation Format in LaTeX](#latexrutgers)
 - [Write replicable papers using the R package "Knitr"](#knitr)
-- [Visual Improvements for Sublime Text 3](#sublimevisual)
+- [Packages and Visual Improvements for Sublime Text 3](#sublimevisual)
 
 ---
 
@@ -220,7 +220,7 @@ Finally, following the standard  \LaTeX tools, you can call the first figure usi
 ---
 
 <div id='sublimevisual'/>
-## Visual Improvements for Sublime Text 3
+## Packages and Visual Improvements for Sublime Text 3
 
 This is my personal take on how Sublime Text 3 looks better for longer hours of work and happier coding. I also describe the packages that I use.
 
