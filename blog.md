@@ -161,7 +161,7 @@ plot(e)
 @
 ```
 
-<img src="/resources/label-1.pdf" alt="Example Plot 1" style="width:400px;height:400px;">
+<img src="/Users/hectorbahamonde/RU/Web/hbahamonde.github.io/resources/label-1.pdf" alt="Example Plot 1" style="width:400px;height:400px;">
 
 The function `tidy=TRUE` keeps your code within the page margins. See how the line *Speaking of reproducibility...* behaves.
 
@@ -176,7 +176,7 @@ Editors and (**most**) readers are **not** interested in your coding. That's fin
 hist(e)
 @
 ```
-<img src="/resources/histogram-1.pdf" alt="Example Plot 2" style="width:400px;height:400px;">
+<img src="/Users/hectorbahamonde/RU/Web/hbahamonde.github.io/resources/histogram-1.pdf" alt="Example Plot 2" style="width:400px;height:400px;">
 
 Finally, following the standard  **LaTeX** tools, you can call the first figure using the `\autoref{fig:label}` function. Similarly, you can call the second one by typing the `\autoref{fig:histogram}` function.
 
