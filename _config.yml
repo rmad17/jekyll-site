@@ -15,7 +15,7 @@ baseurl:             ''
 paginate:            5
 
 # Syntax Highlighting 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 
 # About/contact
