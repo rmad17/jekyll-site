@@ -69,9 +69,6 @@ Show an open sidebar on page load by modifying the `<input>` tag within the `sid
 
 ```html
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
->>>>>>> poole/master
-```
-markdown: kramdown
 ```
 
 ###### Usage
