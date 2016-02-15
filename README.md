@@ -60,7 +60,10 @@ gem install kramdown
 
 * Then, introduce the next line in your `_config.yml` file: 
 
-<<<<<<< HEAD
+```html	
+ markdown: kramdown		
+```
+
 =======
 Show an open sidebar on page load by modifying the `<input>` tag within the `sidebar.html` layout to add the `checked` boolean attribute:
 
