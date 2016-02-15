@@ -16,7 +16,7 @@ paginate:            5
 
 # Syntax Highlighting 
 markdown: kramdown
-highlighter: rouge
+highlighter: rouge 
 
 # About/contact
 author:
