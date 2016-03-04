@@ -24,3 +24,9 @@ version:             1.0.0
 # Gems
 gems:
   - jekyll-paginate
+
+# Pages
+pages_list:       
+  About: '/about'
+  Blog: '/blog'
+  Feed: '/atom.xml'
