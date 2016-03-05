@@ -13,7 +13,7 @@ In this section you will find information on the different courses I have been i
 
 ## 1. <span style="color:#4E9258">Introduction to Quantitative Methods</span>
 
-###  TA (Graduate), Prof. [Beth Leech](http://fas-polisci.rutgers.edu/leech/index.html)
+###  TA (Graduate), Prof. [Beth Leech](http://fas-polisci.rutgers.edu/leech/index.html).
 
 #### F:2015
 
@@ -30,7 +30,9 @@ Statistics are important to the study of political science in many ways. This cl
 
 
 ##  2. <a href="http://hbahamonde.github.io/americangovernment">American Government</a>
+
 ###  TA (undergraduate)
+
 ####  F:2014, S:2015, F:2015, S:2016.
 
 <img src="/resources/usmap.jpg" alt="" style="width:600px;height:400px;">
@@ -46,7 +48,9 @@ This survey course covers the major components of U.S. national government. Begi
  
 
 ##  3. <span style="color:#4E9258">Math Camp for Political Scientists</span>
+
 ###  Instructor (Graduate)
+
 ####  W:2015
 
 <img src="/resources/plot2.pdf" alt="" style="width:800px;height:400px;">
