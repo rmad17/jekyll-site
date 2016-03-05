@@ -11,9 +11,9 @@ In this section you will find information on the different courses I have been i
 ---
 
 
-# 1. <span style="color:#4E9258">Introduction to Quantitative Methods</span>
-  TA (Graduate), Prof. [Beth Leech](http://fas-polisci.rutgers.edu/leech/index.html)
- F:2015
+## 1. <span style="color:#4E9258">Introduction to Quantitative Methods</span>
+###  TA (Graduate), Prof. [Beth Leech](http://fas-polisci.rutgers.edu/leech/index.html)
+#### F:2015
 
 <img src="/resources/plot1.pdf" alt="" style="width:400px;height:400px;">
 
