@@ -1,29 +1,32 @@
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-#relative_permalinks: true
-
-markdown: kramdown
 
 # Setup
-title:               Hector Bahamonde
-tagline:             'Political Science Dpt., Rutgers University'
-description:         ''
-url:                 http://hbahamonde.github.io
-baseurl:             ''
-paginate:            5
+title:               Poole
+tagline:             The Jekyll Butler
+url:                 http://getpoole.com
+paginate:            1
+baseurl:             ""
 
-# Syntax Highlighting 
-markdown: kramdown
-highlighter: rouge 
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
 
 # About/contact
 author:
-  name:              Hector Bahamonde
-  url:               http://www.hectorbahamonde.com
-  email:             hector.bahamonde@rutgers.edu
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
 # Custom vars
-version:             1.0.0
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
 
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
