@@ -15,8 +15,12 @@ paginate:            5
 # About/contact
 author:
   name:              Sourav Basu
-  url:               https://twitter.com/rmad1717
+  url:               http://souravbasu.com
   email:             souravbasu17@gmail.com
+
+# Social
+twitter_username:   rmad1717
+github_username:    rmad17
 
 # Custom vars
 version:             1.0.0
@@ -26,7 +30,7 @@ gems:
   - jekyll-paginate
 
 # Pages
-pages_list:       
+pages_list:
   Blog: '/blog'
   About: '/about'
   Feed: '/atom.xml'
