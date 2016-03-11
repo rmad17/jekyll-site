@@ -26,20 +26,28 @@
     <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="/about"> About </a>
   </nav>
 
-  <div class="sidebar-sticky">
+  <div class="">
 
-        <div class="">
-          <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-          {% if site.github_username %}
-            {% include icon-github.html username=site.github_username %}
+        <div class="sidebar-item">
+          {% if site.author.email %}
+            <a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-square"></i></a>
           {% endif %}
 
-          {% if site.twitter_username %}
-            {% include icon-twitter.html username=site.twitter_username %}
+          {% if site.social.github %}
+            <a href="https://github.com/{{ site.social.github }}"><i class="fa fa-github-square"></i></a>
           {% endif %}
+
+          {% if site.social.twitter %}
+          <a href="https://twitter.com/{{ site.social.twitter }}"><i class="fa fa-twitter-square"></i></a>
+          {% endif %}
+
+          {% if site.social.linkedin %}
+          <a href="{{ site.social.linkedin }}"><i class="fa fa-linkedin-square"></i></i></a>
+          {% endif %}
+
         </div>
 
-        <div class="">
+        <div class="sidebar-sticky">
           <p>
             &copy; {{ site.time | date: '%Y' }}. All rights reserved.
           </p>

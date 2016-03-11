@@ -19,8 +19,10 @@ author:
   email:             souravbasu17@gmail.com
 
 # Social
-twitter_username:   rmad1717
-github_username:    rmad17
+social:
+  twitter:           rmad1717
+  github:            rmad17
+  linkedin:          https://in.linkedin.com/in/souravbasu17
 
 # Custom vars
 version:             1.0.0
