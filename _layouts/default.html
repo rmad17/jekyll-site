@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="theme-base-0d1">
 
     {% include sidebar.html %}
 
@@ -12,10 +12,15 @@
     <div class="wrap">
       <div class="masthead">
         <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
+          <div>
+            <img class="circular-image" src="{{ site.baseurl }}/public/images/me.jpeg" alt="" />
+          </div>
+          <div>
+            <h3 class="masthead-title">
+              <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+              <small>{{ site.tagline }}</small>
+            </h3>
+          </div>
         </div>
       </div>
 

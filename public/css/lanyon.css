@@ -169,15 +169,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 .sidebar-item {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .sidebar-item p:last-child {
   margin-bottom: 0;
 }
 .sidebar-description{
-  font-size: large;
+  font-size: 3.5em;
+  font-weight: 400;
+  color: #fff;
+}
+.sidebar-tagline{
+  font-size: 1.5em;
   font-weight: 400;
 }
+
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
@@ -196,13 +202,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Sidebar nav */
 .sidebar-nav {
-  border-bottom: 1px solid rgba(255,255,255,.1);
-  font-size: medium;
+  font-size: 1.8em;
 }
 .sidebar-nav-item {
   display: block;
-  padding: .5rem 1rem;
-  border-top: 1px solid rgba(255,255,255,.1);
+  padding: .20rem .25rem;
 }
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
@@ -557,6 +561,18 @@ a.pagination-item:hover {
 .theme-base-0f .sidebar-toggle,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+/* Shade of Purple  */
+.theme-base-0d1 .sidebar,
+.theme-base-0d1 .sidebar-toggle:active,
+.theme-base-0d1 #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #300030;
+}
+.theme-base-0d1 .container a,
+.theme-base-0d1 .sidebar-toggle,
+.theme-base-0d1 .related-posts li a:hover {
+  color: #300030;
 }
 
 

@@ -2,7 +2,6 @@
 layout: page
 title: Blog
 ---
-
 ## Blog Posts
 
 {% for post in site.posts %}
