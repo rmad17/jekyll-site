@@ -5,8 +5,26 @@
 .love{
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
+  font-size: small;
 }
 .social{
   text-align: inherit;
   font-size: xx-large;
 }
+.circular-image {
+	width: 200px;
+	height: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-self: center;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(/public/images/me.jpeg) no-repeat;
+	}
+
+.circular-image img {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	}
