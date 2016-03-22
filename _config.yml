@@ -36,3 +36,4 @@ pages_list:
   Blog: '/blog'
   About: '/about'
   Feed: '/atom.xml'
+
