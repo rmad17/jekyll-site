@@ -31,9 +31,10 @@ version:             1.0.0
 gems:
   - jekyll-paginate
 
+markdown: redcarpet
+
 # Pages
 pages_list:
   Blog: '/blog'
   About: '/about'
   Feed: '/atom.xml'
-
