@@ -5,7 +5,7 @@ title: API calls with AngularJS
 
 ####How it all started:
 Few days ago I wanted to learn [AngularJS](https://angularjs.org/). So I decided to start on building a small app with [Hacker News](https://news.ycombinator.com/) [APIs](https://github.com/HackerNews/API).
-So I started with the [Andular Seed Project](https://github.com/angular/angular-seed). I read a little bit in the angularjs documentation to get a little idea.
+So I started with the [Angular Seed Project](https://github.com/angular/angular-seed). I read a little bit in the angularjs documentation to get a little idea.
 
 ####Objective:
 Render the top 20 `new stories` and `top stories` from HackerNews.
