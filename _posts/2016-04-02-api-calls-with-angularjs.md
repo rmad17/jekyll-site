@@ -124,4 +124,6 @@ In view1.html now we utilise the data received by the controller by inserting th
 Finally, we use `ng-repeat` to iterate through the list and use each item to print the url and title.
 I used the same concept in case of `view2` where I populate with `Top Stories`.
 
+Thats it! Tweet and tell me if I managed to make your life easy.
+
 <br> For reference to the full code look at  <https://github.com/rmad17/angular-yc-news>.
