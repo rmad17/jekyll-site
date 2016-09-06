@@ -1,7 +1,7 @@
----
-layout: post
-title: How I Automated My Django Settings Configuration
----
+ ---
+ layout: post
+ title: How I Automated My Django Settings Configuration
+ ---
 
 Past couple of months I had to create a lot of django projects. I generally add a .gitignore, local_settings.py and local_settings_sample.py like many of you. 
 For those not familiar with the `local_settings.py` concept, to tell you briefly, I move out my secret keys and settings that I don't want people to find in my git repo to file called local_settings.py and gitignore it. I also add a local_settings_sample.py to add the key names but without the actualy key(adding empty strings). This file gets commited and whoever downloads the repo knows what keys he/she requires to recreate local_settings.py locally.
@@ -17,13 +17,13 @@ local_settings.py
 The first one is straightforward. The second one is for my files opened in vim. The third one is something I don't generally need very often but still as a precaution to accidentally commiting someday I add it. Git ignoring local_settings.py is something many of you do. The last one is one of my own ideas. The idea is say you have two django apps. Both are using some API services for which you need some kind of key which is not required globally. I then tend to create a file called `<app_name>_settings.py`. We can always keep everything in `local_settings.py` but this is how I prefer doing it.
 
 Coming to my `local_settings.py`, I create a very basic version initially. 
-```
-# SECURITY WARNING: keep the secret key used in production secret!
+```python
+#SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = ')k@=hw&9_iywf#st7xg)k@=hw&nlj#6pxu!2f759nlj#6pxu!2f75'
-# SECURITY WARNING: don't run with debug turned on in production!
+#SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-# Database
-# https://docs.djangoproject.com/en/1.10/ref/settings/#databases
+#Database
+#https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
