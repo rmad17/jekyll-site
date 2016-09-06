@@ -5,7 +5,7 @@ title: How I Automated My Django Settings Configuration
 
 
 Past couple of months I had to create a lot of django projects. I generally add a .gitignore, local\_settings.py and local\_settings\_sample.py like many of you. 
-For those not familiar with the `local_settings.py` concept, to tell you briefly, I move out my secret keys and settings that I do not want people to find in my git repo to file called local\_settings.py and gitignore it. I also add a local\_settings\_sample.py to add the key names but without the actualy key(adding empty strings). This file gets commited and whoever downloads the repo knows what keys he/she requires to recreate local\_settings.py locally.
+For those not familiar with the `local_settings.py` concept, to tell you briefly, I move out my secret keys and settings that I do not want people to find in my git repo to a file called local\_settings.py and gitignore it. I also add a local\_settings\_sample.py to add the key names but without the actual key(adding empty strings). This file gets commited and whoever downloads the repo knows what keys he/she requires to recreate local\_settings.py locally.
 
 My `.gitignore` generally looks something like this:
 
@@ -69,7 +69,7 @@ except ImportError as e:
     print('Error:', e.msg)
 ```
 
-The `noqa` removes flake-8 warnings in case the line is greater than 80 chars.
+The `noqa` removes flake-8 warnings in case the line is greater than 79 chars.
 
 I decided to make it more like a cli tool with arguments rather than just a script so that other people facing simmilar issues can take advantage of this tool as well as probably add some more stuff to it to make it even better. I used the really awesome [click](http://click.pocoo.org/5/) library and bingo! 
 I decided to call it `django-initiate`. 
