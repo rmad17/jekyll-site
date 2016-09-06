@@ -1,4 +1,7 @@
-# How I Automated My Django Settings Configuration
+---
+layout: post
+title: How I Automated My Django Settings Configuration
+---
 
 Past couple of months I had to create a lot of django projects. I generally add a .gitignore, local_settings.py and local_settings_sample.py like many of you. 
 For those not familiar with the `local_settings.py` concept, to tell you briefly, I move out my secret keys and settings that I don't want people to find in my git repo to file called local_settings.py and gitignore it. I also add a local_settings_sample.py to add the key names but without the actualy key(adding empty strings). This file gets commited and whoever downloads the repo knows what keys he/she requires to recreate local_settings.py locally.
