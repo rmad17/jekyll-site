@@ -6,7 +6,7 @@ title: Better API designs in Django
 This post is of beginner level but requires you to know the basics of django and python. 
 Here I am going to talk about how we(our team at my work place) faced some issues and how we resolved it.
 
-# Basic Django API
+### Basic Django API
 
 In django as we all know there is a view(which is in other worlds `Controller`), a model and may or may not be a template to render. There are two types of views, a function based or a class based. However, here we will only talk about class based views as again in my opinion class based views are cleaner. Of course if you are making a view for a small work building class based views are extra effort. Our use case targets building APIs for a medium or large or if you like any size of project :).
 
@@ -19,7 +19,7 @@ import datetime
 
 def current_datetime(request):
     if not request.method == 'POST':
-        return HttpResponse ('Invalid Request')
+        return HttpResponse ('invalid request')
     now = datetime.datetime.now()
     html = "<html><body>It is now %s.</body></html>" % now
     return HttpResponse(html)
@@ -34,4 +34,72 @@ class CurrentDateTime(View):
 ```
 These to views do the same thing. When we declare this in urls.py for class based view we call it like `CurrentDateTime.as_view()`.
 
+### API validations
 
+Now as your code grows more practical, you might be receiving some variables. And with that will come validations.
+
+```python
+class Addition(View):
+
+    def post(self, request):
+        if not request.POST.get('first_number')request.POST.get('second_number'):
+            return HttpResponse('invalid request')
+        try:
+            first_number = request.POST.get('first_number')
+            second_number = request.POST.get('second_number')
+        except ValueError:
+            return HttpResponse('invalid data')
+        return HttpResponse(str(first_number + second_number))
+```
+Here the actual code is just the last line. However for every such API we need to do such repetative lines of code. Now lets say we have to store the data as well
+
+from django.db import IntegrityError
+from .models import Addition
+
+
+def create_addition(first_number, second_number, result):
+    try:
+        addition = Addition.get_or_create(
+            first_number=first_number, 
+            second_number=second_number, result=result)
+        addition.save()
+        return addition
+    except IntegrityError:
+        return None
+
+
+def get_addition(first_number, second_number, result):
+    try:
+        addition = Addition.objects.get(
+            first_number=first_number, 
+            second_number=second_number, result=result)
+        return addition
+    except Addition.DoesNotExist:
+        return None
+
+
+class Addition(View):
+
+    def get(self, request):
+        if not request.POST.get('first_number')request.POST.get('second_number'):
+            return HttpResponse('invalid request')
+        try:
+            first_number = request.POST.get('first_number')
+            second_number = request.POST.get('second_number')
+        except ValueError:
+            return HttpResponse('invalid data')
+        addition = get_addition(first_number, second_number, result)
+        if not addition:
+            return HttpResponse('data not found')
+        return HttpResponse(str(addition.result))
+
+    def post(self, request):
+        if not request.POST.get('first_number')request.POST.get('second_number'):
+            return HttpResponse('invalid request')
+        try:
+            first_number = request.POST.get('first_number')
+            second_number = request.POST.get('second_number')
+        except ValueError:
+            return HttpResponse('invalid data')
+        create_addition(first_number, second_number, result)
+        return HttpResponse(str(result))
