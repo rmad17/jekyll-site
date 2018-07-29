@@ -42,7 +42,7 @@ Now as your code grows more practical, you might be receiving some variables. An
 class Addition(View):
 
     def post(self, request):
-        if not request.POST.get('first_number')request.POST.get('second_number'):
+        if not request.POST.get('first_number') and not request.POST.get('second_number'):
             return HttpResponse('invalid request')
         try:
             first_number = request.POST.get('first_number')
@@ -53,53 +53,62 @@ class Addition(View):
 ```
 Here the actual code is just the last line. However for every such API we need to do such repetative lines of code. Now lets say we have to store the data as well
 
+```python
 from django.db import IntegrityError
+from base.exceptions import ModelOperationError
 from .models import Addition
 
+class AddDbIO:
 
-def create_addition(first_number, second_number, result):
-    try:
-        addition = Addition.get_or_create(
-            first_number=first_number, 
-            second_number=second_number, result=result)
-        addition.save()
-        return addition
-    except IntegrityError:
-        return None
+    def create_addition(self, first_number, second_number, result):
+        try:
+            addition = Addition.get_or_create(
+                first_number=first_number, 
+                second_number=second_number, result=result)
+            addition.save()
+            return addition
+        except IntegrityError as e:
+            raise ModelOperationError(e.args[0])
+
+    def get_addition(self, first_number, second_number, result):
+        try:
+            addition = Addition.objects.get(
+                first_number=first_number, 
+                second_number=second_number, result=result)
+            return addition
+        except Addition.DoesNotExist:
+            raise ModelOperationError(e.args[0])
 
 
-def get_addition(first_number, second_number, result):
-    try:
-        addition = Addition.objects.get(
-            first_number=first_number, 
-            second_number=second_number, result=result)
-        return addition
-    except Addition.DoesNotExist:
-        return None
+class AddHandler:
+
+    def process_addition(self, first_number, second_number):
+        result = first_number + second_number
+        return AddDbIO().create_addition(first_number, second_number, result)
 
 
-class Addition(View):
+class AddView(View):
 
     def get(self, request):
-        if not request.POST.get('first_number')request.POST.get('second_number'):
+        if not request.POST.get('first_number') and not request.POST.get('second_number'):
             return HttpResponse('invalid request')
         try:
-            first_number = request.POST.get('first_number')
-            second_number = request.POST.get('second_number')
+            first_number = int(request.POST.get('first_number'))
+            second_number = int(request.POST.get('second_number'))
         except ValueError:
             return HttpResponse('invalid data')
-        addition = get_addition(first_number, second_number, result)
-        if not addition:
-            return HttpResponse('data not found')
+        addition = AddDbIO().get_addition(first_number, second_number, result)
         return HttpResponse(str(addition.result))
 
     def post(self, request):
-        if not request.POST.get('first_number')request.POST.get('second_number'):
+        if not request.POST.get('first_number') and not request.POST.get('second_number'):
             return HttpResponse('invalid request')
         try:
-            first_number = request.POST.get('first_number')
-            second_number = request.POST.get('second_number')
+            first_number = int(request.POST.get('first_number'))
+            second_number = int(request.POST.get('second_number'))
         except ValueError:
             return HttpResponse('invalid data')
-        create_addition(first_number, second_number, result)
-        return HttpResponse(str(result))
+        add_obj = AddHandler().process_addition(first_number, second_number)
+        return HttpResponse(add_obj.result)
+```
+This solves our problem with organization of code.
