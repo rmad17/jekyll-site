@@ -10,7 +10,7 @@ This is a story of how I faced issues with serializers of [django-rest-framework
 
 ### The Issue
 
-==============================================================================================
+<hr>
 
 Normally if one is using `django-rest-framework` we tend to use the serializer classes provided as well. 
 
@@ -81,7 +81,7 @@ However, despite all the goodies one of the problems I faced frequently were:
 
 ### The Solution
 
-==============================================================================================
+<hr>
 
 Initiatially I thought of inheriting the `Serializer` class but that was not simple because the [`Meta` class was not automatically inherited](https://docs.djangoproject.com/en/dev/topics/db/models/#meta-inheritance) and [[2]]  and [[3]] still remained unresolved.  
 
