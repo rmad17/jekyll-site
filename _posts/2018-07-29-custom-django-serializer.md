@@ -13,7 +13,7 @@ This is a story of how I faced issues with serializers of [django-rest-framework
 
 Normally if one is using `django-rest-framework` we tend to use the serializer classes provided as well. 
 
-A simple serializer example for the [docs](http://www.django-rest-framework.org/api-guide/serializers/) of `django-rest-framework`.
+A simple serializer example from the [docs](http://www.django-rest-framework.org/api-guide/serializers/) of `django-rest-framework`.
 
 ```python
 class CommentSerializer(serializers.Serializer):
@@ -82,7 +82,7 @@ However, despite all the goodies one of the problems I faced frequently were:
 
 <hr>
 
-Initiatially I thought of inheriting the `Serializer` class but that was not simple because the [`Meta` class was not automatically inherited](https://docs.djangoproject.com/en/dev/topics/db/models/#meta-inheritance) and [[2]]  and [[3]] still remained unresolved.  
+Initiatially I thought of inheriting the `Serializer` class but that was not simple because the [`Meta` class was not automatically inherited](https://docs.djangoproject.com/en/dev/topics/db/models/#meta-inheritance) and [2]  and [3] still remained unresolved.  
 
 
 
