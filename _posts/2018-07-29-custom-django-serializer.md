@@ -2,7 +2,6 @@
 layout: post
 title: Custom Django Serializer
 date:   2018-07-29 19:16:01 +0530
-category: ['python', 'django', 'programming']
 
 ---
 
