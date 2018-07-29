@@ -5,8 +5,8 @@ permalink:           pretty
 # relative_permalinks: true
 
 # Setup
-title:               Tech Karma
-tagline:             'yet another developer blog'
+title:               Samhita
+tagline:             'a collection of my experiences'
 description:         "rmad17's"
 url:                 http://souravbasu.com
 baseurl:             ''
@@ -15,7 +15,7 @@ paginate:            5
 # About/contact
 author:
   name:              Sourav Basu
-  url:               http://souravbasu.com
+  url:               https://souravbasu.com
   email:             souravbasu17@gmail.com
 
 # Social
